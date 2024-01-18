@@ -1,0 +1,800 @@
+Age,Gender,Occupation,Days Indoors,Growing Stress,Quarantine Frustrations,Changes Habits,Mental Health History,Weight Change,Mood Swings,Coping Struggles,Work Interest,Social Weakness
+20-25,Female,Corporate,1-14 days,Yes,Yes,No,Yes,Yes,Medium,No,No,Yes
+30-Above,Male,Others,31-60 days,Yes,Yes,Maybe,No,No,High,No,No,Yes
+30-Above,Female,Student,Go out Every day,No,No,Yes,No,No,Medium,Yes,Maybe,No
+25-30,Male,Others,1-14 days,Yes,No,Maybe,No,Maybe,Medium,No,Maybe,Yes
+16-20,Female,Student,More than 2 months,Yes,Yes,Yes,No,Yes,Medium,Yes,Maybe,No
+25-30,Male,Housewife,More than 2 months,No,Yes,Yes,Yes,Yes,Medium,No,Maybe,Maybe
+16-20,Female,Business,Go out Every day,Yes,Yes,Maybe,No,Yes,Low,No,Maybe,Maybe
+25-30,Female,Student,1-14 days,Yes,No,Maybe,Maybe,Maybe,High,No,No,Yes
+30-Above,Male,Others,Go out Every day,Yes,Yes,Yes,No,Yes,Medium,Yes,Maybe,Maybe
+20-25,Male,Corporate,Go out Every day,Maybe,Maybe,Yes,Yes,Yes,Low,No,Maybe,No
+16-20,Male,Others,31-60 days,No,Maybe,No,Maybe,No,Low,No,Maybe,Yes
+30-Above,Female,Business,More than 2 months,Yes,Yes,No,No,Yes,High,No,No,Maybe
+25-30,Male,Others,15-30 days,Maybe,Yes,No,Yes,Yes,Medium,No,Maybe,No
+30-Above,Female,Housewife,15-30 days,Yes,Yes,Yes,No,No,Low,Yes,No,Maybe
+30-Above,Female,Housewife,1-14 days,No,No,No,Maybe,Maybe,Medium,No,No,Maybe
+16-20,Male,Corporate,More than 2 months,No,No,Maybe,Yes,Maybe,Medium,No,No,Maybe
+16-20,Female,Student,1-14 days,Yes,Yes,Maybe,No,Yes,Medium,No,No,No
+25-30,Female,Others,More than 2 months,Yes,Yes,Maybe,Maybe,Maybe,Medium,Yes,Maybe,Yes
+30-Above,Male,Student,31-60 days,Maybe,No,Maybe,No,Yes,Medium,Yes,Yes,Maybe
+16-20,Female,Student,1-14 days,Yes,Yes,Yes,No,Yes,High,No,Yes,Maybe
+30-Above,Female,Housewife,Go out Every day,No,Maybe,No,No,Maybe,Medium,Yes,Yes,Maybe
+16-20,Male,Housewife,15-30 days,No,Maybe,No,Yes,No,High,No,Maybe,No
+30-Above,Female,Student,31-60 days,Yes,Maybe,No,Maybe,No,Medium,Yes,No,Maybe
+16-20,Female,Student,1-14 days,No,Yes,Maybe,Yes,No,Low,No,Yes,Yes
+20-25,Female,Business,More than 2 months,Maybe,No,Maybe,No,Yes,Medium,Yes,Yes,No
+30-Above,Female,Housewife,1-14 days,Yes,Maybe,Maybe,Yes,Yes,Low,Yes,Maybe,Yes
+30-Above,Male,Student,15-30 days,Yes,Maybe,No,Maybe,Maybe,Medium,No,Yes,Maybe
+20-25,Male,Student,1-14 days,Yes,No,Maybe,No,Maybe,High,Yes,Maybe,No
+20-25,Female,Others,1-14 days,Yes,Yes,Maybe,Maybe,Yes,High,Yes,No,Yes
+30-Above,Female,Student,31-60 days,No,Yes,No,Yes,No,Low,No,No,Maybe
+30-Above,Male,Business,More than 2 months,Yes,Maybe,No,Maybe,Maybe,Medium,No,Maybe,Yes
+30-Above,Female,Corporate,Go out Every day,Maybe,Maybe,No,Maybe,Maybe,Medium,No,No,Yes
+25-30,Female,Business,1-14 days,Yes,No,No,No,Yes,Medium,No,No,Maybe
+20-25,Female,Business,15-30 days,Maybe,Yes,No,No,No,Low,No,No,No
+16-20,Female,Student,Go out Every day,Maybe,No,Maybe,Yes,Maybe,High,Yes,No,Yes
+16-20,Male,Business,31-60 days,Yes,Yes,Maybe,No,Maybe,Medium,No,Yes,Yes
+20-25,Male,Corporate,15-30 days,Yes,Yes,Yes,No,Maybe,Low,Yes,No,Maybe
+16-20,Male,Corporate,15-30 days,Yes,Yes,Maybe,No,Maybe,Medium,No,Maybe,Maybe
+25-30,Female,Others,31-60 days,Yes,Yes,Maybe,Yes,No,High,Yes,Yes,No
+30-Above,Female,Housewife,Go out Every day,Maybe,Maybe,No,Maybe,Maybe,High,Yes,Yes,Yes
+30-Above,Female,Business,31-60 days,No,No,Maybe,No,No,Low,Yes,No,Maybe
+30-Above,Female,Corporate,Go out Every day,Yes,Maybe,No,Maybe,Yes,Low,Yes,No,No
+25-30,Female,Housewife,31-60 days,Yes,No,No,Maybe,Yes,Medium,No,Yes,No
+20-25,Male,Student,More than 2 months,No,Maybe,Maybe,No,Yes,High,No,Yes,Yes
+20-25,Female,Business,31-60 days,Yes,Yes,No,Yes,No,Low,Yes,Maybe,Maybe
+20-25,Female,Corporate,Go out Every day,Maybe,Yes,Yes,Maybe,Yes,High,No,Maybe,No
+20-25,Male,Housewife,15-30 days,Yes,No,Maybe,No,No,Medium,No,Maybe,Yes
+25-30,Female,Student,More than 2 months,Yes,No,No,Maybe,Yes,Medium,No,No,Yes
+20-25,Male,Student,1-14 days,Maybe,Yes,Yes,Maybe,Yes,High,No,No,No
+16-20,Female,Others,More than 2 months,No,No,Yes,No,Maybe,Low,Yes,Maybe,No
+25-30,Female,Student,15-30 days,Maybe,Yes,Yes,Yes,Yes,High,Yes,No,No
+30-Above,Female,Student,More than 2 months,Maybe,No,Maybe,No,Maybe,Low,Yes,Maybe,Yes
+16-20,Male,Others,More than 2 months,Yes,Yes,Yes,Yes,Maybe,Low,Yes,No,No
+30-Above,Male,Others,31-60 days,No,Yes,No,Yes,Maybe,Low,Yes,Maybe,No
+30-Above,Male,Others,More than 2 months,Maybe,No,Yes,No,Maybe,High,No,Yes,No
+16-20,Female,Corporate,Go out Every day,No,Yes,No,Yes,No,Medium,No,Maybe,No
+16-20,Male,Student,Go out Every day,Maybe,Maybe,No,Maybe,Maybe,High,Yes,Yes,Maybe
+25-30,Male,Others,1-14 days,Maybe,Maybe,Yes,Yes,Yes,Low,No,No,Maybe
+30-Above,Male,Others,1-14 days,No,Maybe,No,Yes,Maybe,Low,No,No,No
+20-25,Male,Student,31-60 days,Maybe,No,No,Yes,Maybe,Low,Yes,Maybe,Yes
+16-20,Female,Housewife,Go out Every day,No,Yes,Maybe,Maybe,Maybe,Low,No,Maybe,No
+25-30,Male,Corporate,15-30 days,Maybe,Maybe,No,No,Yes,Medium,Yes,Yes,No
+20-25,Female,Business,More than 2 months,No,No,Maybe,Maybe,No,Low,No,No,Yes
+16-20,Male,Student,Go out Every day,Yes,Yes,No,Maybe,Yes,High,Yes,Maybe,Yes
+30-Above,Male,Housewife,15-30 days,Maybe,Maybe,Yes,Yes,Yes,Low,No,Yes,No
+30-Above,Male,Business,More than 2 months,Maybe,No,Maybe,Maybe,Yes,Low,No,Maybe,No
+25-30,Female,Others,More than 2 months,Yes,Yes,No,No,Maybe,Medium,Yes,Maybe,Yes
+25-30,Female,Corporate,1-14 days,Yes,Yes,Maybe,Maybe,Yes,Medium,Yes,Maybe,Yes
+20-25,Male,Housewife,Go out Every day,Maybe,Yes,No,Maybe,No,High,Yes,No,Maybe
+25-30,Male,Housewife,31-60 days,Maybe,Yes,No,Maybe,Maybe,Low,No,No,No
+30-Above,Male,Housewife,More than 2 months,Maybe,No,No,Maybe,No,Medium,No,No,Yes
+25-30,Male,Corporate,Go out Every day,Maybe,Yes,Maybe,Maybe,No,Low,Yes,Maybe,No
+25-30,Female,Corporate,More than 2 months,Yes,No,Maybe,Maybe,Maybe,Low,Yes,No,Maybe
+16-20,Male,Corporate,31-60 days,No,Maybe,Yes,Maybe,No,Medium,No,No,Yes
+25-30,Female,Housewife,15-30 days,No,Maybe,Yes,No,Maybe,High,Yes,No,No
+20-25,Female,Business,31-60 days,Yes,Maybe,Yes,Maybe,Maybe,Low,Yes,Yes,Yes
+30-Above,Female,Housewife,15-30 days,No,No,Yes,No,No,High,No,Yes,Maybe
+30-Above,Female,Corporate,31-60 days,Maybe,No,Maybe,No,Maybe,High,No,Maybe,No
+20-25,Male,Housewife,Go out Every day,No,Yes,Maybe,Yes,No,High,No,Yes,No
+30-Above,Male,Business,31-60 days,Yes,Yes,Maybe,No,Yes,Medium,Yes,Maybe,Maybe
+25-30,Female,Housewife,1-14 days,Yes,Maybe,No,Yes,No,Low,Yes,No,No
+30-Above,Female,Corporate,More than 2 months,Yes,No,Yes,No,Maybe,Medium,No,No,No
+16-20,Female,Student,15-30 days,Yes,Maybe,Maybe,Maybe,Maybe,High,No,No,Maybe
+30-Above,Male,Corporate,More than 2 months,Maybe,Maybe,Yes,Maybe,No,Medium,No,Yes,Maybe
+30-Above,Female,Corporate,31-60 days,Yes,No,Maybe,Maybe,Yes,High,No,Yes,Maybe
+16-20,Male,Corporate,Go out Every day,No,Maybe,Yes,Maybe,No,Low,No,Maybe,Yes
+20-25,Female,Student,Go out Every day,No,Maybe,No,No,No,Low,No,Maybe,Yes
+25-30,Female,Others,31-60 days,Maybe,No,Maybe,Maybe,No,High,Yes,Yes,Yes
+25-30,Male,Others,15-30 days,Yes,Maybe,Yes,Maybe,Yes,High,No,No,Maybe
+30-Above,Female,Business,15-30 days,Maybe,Maybe,Yes,No,Maybe,High,Yes,Yes,Yes
+30-Above,Female,Housewife,15-30 days,No,Maybe,Yes,Yes,Maybe,Medium,Yes,No,Maybe
+16-20,Male,Housewife,1-14 days,No,Maybe,No,Maybe,No,Medium,No,Yes,No
+30-Above,Female,Housewife,1-14 days,Maybe,Maybe,Yes,No,No,Low,Yes,Maybe,No
+20-25,Female,Housewife,15-30 days,Yes,No,Maybe,Yes,Maybe,Medium,No,Yes,No
+25-30,Female,Others,31-60 days,No,Yes,Yes,Maybe,No,Medium,No,No,Maybe
+16-20,Female,Housewife,31-60 days,Maybe,Maybe,No,Yes,Yes,High,No,Maybe,Maybe
+30-Above,Male,Corporate,Go out Every day,Maybe,No,Maybe,Yes,No,High,No,Maybe,Yes
+16-20,Male,Student,Go out Every day,Yes,Maybe,Yes,No,Maybe,High,Yes,Yes,Maybe
+30-Above,Female,Corporate,15-30 days,Maybe,Yes,Maybe,No,Maybe,High,Yes,Yes,No
+16-20,Male,Corporate,31-60 days,No,No,Yes,Maybe,Maybe,Medium,Yes,Yes,Yes
+25-30,Female,Business,More than 2 months,Yes,Yes,No,Yes,No,Medium,No,Yes,Maybe
+16-20,Male,Corporate,More than 2 months,No,Yes,Maybe,Maybe,No,High,Yes,Yes,No
+20-25,Female,Corporate,More than 2 months,Maybe,Maybe,Yes,No,Maybe,Medium,Yes,Maybe,Yes
+30-Above,Female,Corporate,15-30 days,Yes,Maybe,Yes,No,Maybe,Low,Yes,Yes,Yes
+30-Above,Female,Housewife,Go out Every day,Yes,Yes,No,No,Maybe,High,No,Maybe,No
+20-25,Male,Student,Go out Every day,No,No,Yes,Yes,Yes,Medium,No,No,Maybe
+16-20,Female,Business,More than 2 months,Yes,Maybe,Yes,Maybe,Yes,Low,No,Maybe,Maybe
+25-30,Male,Housewife,15-30 days,Yes,Maybe,No,No,No,Low,No,Yes,Yes
+30-Above,Female,Others,15-30 days,Maybe,No,Yes,Yes,Yes,Low,Yes,No,Yes
+16-20,Female,Housewife,Go out Every day,Maybe,Yes,Yes,Maybe,No,High,Yes,Yes,No
+16-20,Male,Others,1-14 days,No,Maybe,Maybe,Maybe,Maybe,High,No,No,Maybe
+16-20,Male,Business,Go out Every day,Maybe,No,Yes,No,Yes,Medium,Yes,No,Yes
+16-20,Male,Housewife,31-60 days,Yes,Yes,Yes,Yes,Maybe,Low,No,No,Maybe
+20-25,Male,Student,1-14 days,Yes,Yes,Yes,No,No,Medium,No,Maybe,Yes
+16-20,Female,Business,15-30 days,Maybe,No,Yes,No,Yes,Low,Yes,No,Yes
+25-30,Female,Business,Go out Every day,No,Yes,No,Yes,No,Low,Yes,Yes,No
+25-30,Female,Others,Go out Every day,Maybe,No,Maybe,No,No,Low,Yes,No,Yes
+16-20,Female,Business,1-14 days,No,No,Maybe,Yes,Maybe,High,No,Yes,Yes
+16-20,Male,Others,More than 2 months,Yes,No,No,Maybe,Yes,Low,Yes,No,No
+16-20,Female,Housewife,More than 2 months,Yes,Yes,Yes,Maybe,Maybe,Medium,Yes,Yes,Maybe
+30-Above,Male,Corporate,31-60 days,Yes,No,Maybe,Maybe,Maybe,Low,No,No,Yes
+25-30,Male,Student,31-60 days,Yes,Yes,Yes,No,Yes,Low,No,Yes,No
+16-20,Male,Corporate,More than 2 months,Yes,Yes,Maybe,No,Maybe,High,No,Maybe,Maybe
+30-Above,Male,Others,More than 2 months,No,No,No,No,No,High,No,Yes,No
+16-20,Female,Corporate,1-14 days,Yes,Yes,Maybe,Maybe,No,High,No,Yes,Maybe
+25-30,Female,Student,Go out Every day,Yes,Maybe,Yes,Yes,Yes,Medium,Yes,Maybe,Maybe
+30-Above,Female,Student,1-14 days,Yes,Maybe,Yes,No,No,Low,Yes,No,Yes
+20-25,Female,Business,More than 2 months,Maybe,No,Yes,Yes,No,Medium,Yes,Yes,No
+16-20,Male,Business,15-30 days,Yes,Maybe,Yes,Yes,Maybe,High,Yes,Yes,No
+30-Above,Male,Student,31-60 days,No,Yes,Maybe,Yes,Yes,Low,No,No,Maybe
+20-25,Female,Student,More than 2 months,Maybe,No,No,No,No,Low,Yes,Yes,Yes
+20-25,Female,Student,31-60 days,No,Maybe,No,Yes,Yes,High,No,Yes,No
+16-20,Male,Student,15-30 days,Maybe,Yes,Yes,Yes,Maybe,High,Yes,No,Yes
+30-Above,Male,Housewife,31-60 days,Yes,Maybe,Maybe,Maybe,Maybe,Low,Yes,Yes,Maybe
+16-20,Male,Housewife,More than 2 months,Maybe,Yes,No,No,No,Low,Yes,Maybe,No
+30-Above,Male,Student,Go out Every day,Yes,Maybe,Yes,No,No,Medium,Yes,Maybe,Yes
+20-25,Male,Others,31-60 days,Maybe,Yes,No,No,Yes,Medium,Yes,Maybe,Yes
+20-25,Female,Student,Go out Every day,Maybe,Yes,Maybe,Maybe,No,Low,Yes,Yes,Yes
+20-25,Female,Student,15-30 days,No,Yes,Maybe,Maybe,Yes,Low,No,Maybe,Yes
+16-20,Female,Corporate,15-30 days,No,No,Maybe,No,No,Low,No,Yes,Yes
+16-20,Female,Housewife,More than 2 months,No,Maybe,No,Maybe,Yes,Low,Yes,Yes,Maybe
+25-30,Female,Others,More than 2 months,No,No,Yes,No,No,High,Yes,No,Yes
+25-30,Male,Housewife,More than 2 months,Yes,No,Maybe,Yes,Yes,Medium,Yes,Maybe,Yes
+30-Above,Female,Student,15-30 days,Maybe,Maybe,Maybe,No,Maybe,Medium,No,No,No
+25-30,Female,Business,15-30 days,Yes,No,Maybe,Maybe,No,High,No,No,No
+25-30,Female,Corporate,More than 2 months,Maybe,Yes,Yes,Maybe,No,High,No,Maybe,Maybe
+25-30,Male,Corporate,31-60 days,No,Maybe,Maybe,No,No,Low,Yes,No,Maybe
+30-Above,Male,Housewife,1-14 days,Yes,Yes,Yes,Yes,Maybe,Low,Yes,Yes,Yes
+16-20,Female,Business,31-60 days,No,Yes,No,Maybe,No,High,No,Maybe,Maybe
+25-30,Female,Student,Go out Every day,Maybe,Maybe,Yes,Yes,Maybe,High,Yes,Maybe,No
+25-30,Male,Others,31-60 days,No,Maybe,Yes,Yes,No,Medium,No,No,No
+25-30,Male,Others,31-60 days,Maybe,Maybe,Maybe,Maybe,Maybe,High,No,No,Maybe
+16-20,Male,Corporate,15-30 days,Yes,Maybe,Yes,Yes,Maybe,Low,Yes,Yes,No
+30-Above,Female,Others,31-60 days,Maybe,Maybe,Yes,Maybe,Maybe,Low,Yes,Yes,No
+20-25,Male,Housewife,1-14 days,Yes,No,No,No,Yes,Low,No,Maybe,Yes
+30-Above,Male,Business,31-60 days,Maybe,Maybe,Yes,No,Yes,Low,Yes,Maybe,No
+25-30,Male,Housewife,Go out Every day,Yes,No,Yes,Yes,No,High,No,Yes,Yes
+30-Above,Female,Housewife,Go out Every day,Yes,Yes,Maybe,Yes,Yes,Medium,No,Yes,Maybe
+16-20,Female,Business,Go out Every day,Maybe,Maybe,Yes,Yes,Maybe,Low,Yes,Yes,No
+20-25,Male,Others,1-14 days,No,Maybe,No,Yes,Yes,Low,No,Maybe,No
+16-20,Male,Corporate,1-14 days,Yes,Yes,No,Yes,Yes,Medium,Yes,Maybe,Maybe
+20-25,Male,Housewife,Go out Every day,Yes,Maybe,Yes,Yes,Maybe,Medium,No,Yes,Yes
+16-20,Female,Housewife,31-60 days,Maybe,Maybe,Yes,No,Yes,High,Yes,Maybe,No
+25-30,Female,Business,Go out Every day,Yes,Yes,Maybe,Maybe,Yes,Low,Yes,No,No
+20-25,Female,Housewife,1-14 days,Yes,Yes,Yes,No,No,High,Yes,No,No
+25-30,Male,Student,31-60 days,Maybe,Yes,Yes,No,Maybe,Medium,Yes,No,Yes
+25-30,Female,Business,Go out Every day,Yes,Yes,Maybe,No,Yes,Low,Yes,Maybe,Maybe
+20-25,Male,Business,31-60 days,No,Maybe,Yes,Maybe,No,Low,No,Maybe,No
+20-25,Female,Housewife,Go out Every day,Yes,Yes,Yes,No,Yes,High,No,Maybe,Maybe
+30-Above,Male,Corporate,15-30 days,Yes,Maybe,No,No,Maybe,High,Yes,Maybe,No
+25-30,Male,Corporate,15-30 days,Maybe,Yes,No,No,Yes,Medium,No,No,Yes
+20-25,Male,Corporate,More than 2 months,Yes,Yes,Maybe,Yes,Maybe,Medium,No,No,Maybe
+30-Above,Female,Housewife,1-14 days,Yes,Maybe,Maybe,Yes,Maybe,High,No,No,Yes
+30-Above,Female,Business,Go out Every day,Maybe,Yes,Yes,No,Maybe,Low,No,Yes,No
+30-Above,Male,Housewife,1-14 days,No,Maybe,No,Maybe,Yes,Medium,Yes,Yes,No
+20-25,Male,Others,Go out Every day,No,Yes,Maybe,Yes,No,Low,Yes,Maybe,Maybe
+25-30,Male,Business,Go out Every day,Maybe,Yes,No,Yes,No,Low,Yes,Yes,No
+25-30,Female,Corporate,Go out Every day,Maybe,No,Yes,Maybe,Maybe,Low,Yes,Yes,No
+16-20,Female,Housewife,1-14 days,No,Maybe,Yes,Maybe,Maybe,Medium,No,No,Maybe
+20-25,Female,Housewife,15-30 days,Yes,Maybe,No,Maybe,Maybe,Low,Yes,No,Yes
+30-Above,Female,Corporate,1-14 days,Yes,Yes,Maybe,No,Maybe,Medium,No,Yes,No
+25-30,Female,Others,More than 2 months,Maybe,Yes,No,Yes,No,Low,No,Yes,No
+16-20,Male,Corporate,More than 2 months,Maybe,Yes,Maybe,Yes,Maybe,Low,No,Maybe,Yes
+16-20,Male,Business,More than 2 months,Yes,No,Yes,Maybe,Maybe,Medium,No,Maybe,Maybe
+16-20,Female,Student,1-14 days,No,Yes,Yes,Maybe,No,Low,Yes,Maybe,Maybe
+25-30,Male,Others,1-14 days,Maybe,Yes,Maybe,Yes,Maybe,Medium,Yes,Yes,Maybe
+20-25,Female,Corporate,1-14 days,No,Maybe,Yes,Maybe,Maybe,High,Yes,Yes,No
+20-25,Female,Others,31-60 days,Maybe,Maybe,Yes,Yes,No,High,No,Maybe,Yes
+30-Above,Female,Corporate,31-60 days,Yes,Yes,Yes,Maybe,Maybe,Medium,Yes,Yes,No
+30-Above,Male,Others,Go out Every day,No,No,Yes,No,Yes,High,No,Maybe,Maybe
+30-Above,Female,Business,Go out Every day,No,No,Yes,Yes,Maybe,High,Yes,Maybe,Yes
+25-30,Female,Others,15-30 days,Maybe,Maybe,Maybe,No,No,Low,No,Maybe,Maybe
+20-25,Female,Business,15-30 days,Yes,Yes,No,No,Yes,Medium,Yes,No,Yes
+30-Above,Male,Business,More than 2 months,Maybe,Maybe,No,Yes,No,Medium,Yes,No,Maybe
+30-Above,Male,Others,15-30 days,Maybe,Yes,No,Yes,Maybe,Medium,No,No,Yes
+25-30,Female,Others,More than 2 months,Maybe,Maybe,Yes,Yes,No,Low,Yes,Maybe,Maybe
+30-Above,Female,Corporate,More than 2 months,Maybe,Yes,Yes,Maybe,Yes,Medium,No,Yes,No
+20-25,Female,Business,1-14 days,Yes,Maybe,Yes,No,Maybe,Low,No,Yes,Maybe
+25-30,Male,Others,31-60 days,Maybe,No,Maybe,No,Yes,Low,Yes,Yes,Yes
+20-25,Female,Others,31-60 days,Maybe,Maybe,Yes,Maybe,Yes,Medium,No,Yes,No
+16-20,Male,Business,Go out Every day,No,Yes,Yes,Yes,Yes,Low,Yes,Maybe,Maybe
+25-30,Male,Student,1-14 days,Maybe,Maybe,Yes,Maybe,Yes,High,Yes,No,No
+16-20,Male,Corporate,1-14 days,Yes,Yes,Maybe,Maybe,Maybe,Low,Yes,Yes,Maybe
+20-25,Male,Student,More than 2 months,Maybe,Maybe,No,Maybe,No,Low,No,Maybe,Maybe
+25-30,Male,Corporate,1-14 days,Yes,Maybe,No,Maybe,Maybe,High,Yes,Yes,Maybe
+25-30,Female,Student,1-14 days,No,Yes,No,Maybe,Maybe,High,No,Yes,Yes
+25-30,Male,Housewife,Go out Every day,Maybe,Yes,No,Yes,No,High,No,No,Maybe
+25-30,Male,Housewife,15-30 days,No,Maybe,No,No,Yes,High,Yes,Yes,No
+16-20,Female,Others,15-30 days,Maybe,Yes,No,Yes,No,Low,Yes,No,Yes
+30-Above,Female,Business,31-60 days,No,No,Maybe,Yes,No,Low,Yes,Maybe,Yes
+20-25,Male,Others,15-30 days,Yes,No,Yes,Yes,Maybe,Low,Yes,Yes,Yes
+30-Above,Male,Business,31-60 days,Maybe,Yes,Maybe,Maybe,Maybe,Low,No,Maybe,Yes
+25-30,Female,Corporate,15-30 days,No,Yes,Yes,Yes,Maybe,Low,Yes,Maybe,Maybe
+16-20,Female,Housewife,Go out Every day,Yes,Yes,Yes,Maybe,No,Medium,No,No,Yes
+25-30,Male,Corporate,31-60 days,No,Yes,No,Yes,Maybe,High,Yes,No,No
+25-30,Male,Business,1-14 days,No,Maybe,No,No,Maybe,High,No,No,Maybe
+25-30,Male,Housewife,15-30 days,No,Yes,Yes,Maybe,Maybe,Medium,Yes,Yes,Maybe
+16-20,Male,Student,15-30 days,Maybe,Yes,No,No,Yes,Low,No,No,Yes
+25-30,Male,Housewife,1-14 days,No,Yes,Yes,Maybe,Yes,Medium,Yes,Maybe,Maybe
+16-20,Female,Student,31-60 days,Maybe,Maybe,No,No,No,Medium,No,No,Yes
+30-Above,Female,Corporate,15-30 days,No,Maybe,Maybe,Yes,Yes,Medium,Yes,Maybe,Yes
+25-30,Female,Corporate,More than 2 months,No,Maybe,No,Yes,Maybe,Medium,Yes,Yes,No
+16-20,Male,Corporate,More than 2 months,Yes,Yes,Yes,Maybe,Maybe,Low,No,No,Maybe
+20-25,Male,Student,More than 2 months,Yes,No,Yes,Maybe,No,High,No,No,Yes
+20-25,Male,Corporate,Go out Every day,No,Yes,Maybe,Maybe,Maybe,Low,No,No,No
+30-Above,Female,Student,31-60 days,Yes,Maybe,No,Maybe,Yes,Low,No,Yes,No
+25-30,Male,Corporate,Go out Every day,Yes,No,No,Yes,No,Medium,No,No,Maybe
+20-25,Male,Student,More than 2 months,Yes,Maybe,Yes,Yes,Yes,Low,Yes,Maybe,No
+30-Above,Female,Student,31-60 days,Maybe,Maybe,Yes,Maybe,No,Medium,Yes,Maybe,No
+30-Above,Male,Business,31-60 days,Maybe,No,No,Maybe,Maybe,Medium,No,No,No
+16-20,Female,Housewife,1-14 days,Yes,Yes,Maybe,Yes,No,High,Yes,Yes,Maybe
+25-30,Female,Business,More than 2 months,Maybe,Maybe,Maybe,Maybe,Yes,Low,Yes,Maybe,Maybe
+30-Above,Female,Others,1-14 days,No,Maybe,Yes,Maybe,Maybe,Medium,No,Maybe,Maybe
+20-25,Female,Business,Go out Every day,Maybe,No,Maybe,No,Yes,Low,Yes,Maybe,Yes
+20-25,Male,Corporate,More than 2 months,Yes,No,Maybe,Yes,Maybe,Medium,Yes,Yes,Maybe
+30-Above,Male,Student,31-60 days,No,Maybe,Maybe,Maybe,Yes,High,No,No,Maybe
+16-20,Female,Others,31-60 days,Yes,Maybe,No,Maybe,No,Low,No,Yes,No
+16-20,Female,Housewife,Go out Every day,Yes,No,Maybe,No,No,High,Yes,No,No
+25-30,Male,Others,1-14 days,No,No,Maybe,Maybe,Yes,High,Yes,Yes,No
+25-30,Male,Business,More than 2 months,Maybe,Maybe,Yes,Yes,Yes,Medium,Yes,No,No
+16-20,Female,Others,1-14 days,Yes,Yes,No,Yes,Maybe,High,Yes,Yes,No
+30-Above,Female,Student,Go out Every day,Yes,Maybe,Yes,Maybe,Yes,Medium,Yes,No,Maybe
+30-Above,Male,Student,31-60 days,Maybe,Yes,No,No,No,High,Yes,Maybe,Maybe
+20-25,Male,Corporate,1-14 days,Maybe,Yes,Yes,Maybe,Yes,Low,No,No,Yes
+16-20,Female,Student,15-30 days,No,Maybe,No,Yes,No,Low,No,Maybe,No
+30-Above,Female,Student,31-60 days,Maybe,No,Yes,No,Maybe,Low,Yes,Yes,Yes
+25-30,Male,Business,Go out Every day,No,Yes,Yes,No,Yes,Medium,Yes,Yes,Maybe
+16-20,Female,Corporate,More than 2 months,Yes,Yes,Yes,No,Maybe,Low,Yes,Maybe,Maybe
+30-Above,Female,Student,Go out Every day,No,Maybe,No,Yes,Maybe,High,No,No,No
+30-Above,Male,Housewife,Go out Every day,No,Yes,Yes,No,Maybe,Medium,No,Yes,Maybe
+30-Above,Male,Others,31-60 days,Maybe,Maybe,Yes,Maybe,Yes,Low,Yes,Yes,No
+16-20,Male,Corporate,More than 2 months,Maybe,No,Yes,Maybe,Maybe,Medium,No,Yes,No
+20-25,Female,Student,More than 2 months,Yes,Yes,Maybe,Maybe,Maybe,High,No,Maybe,No
+20-25,Male,Business,15-30 days,Yes,No,No,Maybe,No,Low,No,Yes,No
+25-30,Female,Housewife,More than 2 months,No,Maybe,No,Yes,Maybe,High,No,Maybe,No
+30-Above,Female,Others,31-60 days,Maybe,Maybe,No,Yes,Maybe,Low,Yes,Maybe,No
+20-25,Male,Housewife,1-14 days,Maybe,No,Yes,Yes,Maybe,Medium,No,Maybe,No
+25-30,Female,Housewife,1-14 days,Yes,Maybe,Yes,Yes,Maybe,Medium,Yes,No,Maybe
+16-20,Female,Corporate,31-60 days,No,Maybe,No,Maybe,Maybe,High,No,No,Maybe
+25-30,Female,Business,Go out Every day,No,No,Yes,No,Yes,High,Yes,Maybe,Yes
+25-30,Female,Student,More than 2 months,Yes,Yes,Yes,No,Maybe,High,No,No,No
+16-20,Female,Corporate,31-60 days,Yes,Yes,Yes,Maybe,Maybe,Medium,No,Yes,Maybe
+30-Above,Female,Business,31-60 days,Yes,Yes,No,No,Maybe,High,No,Maybe,Yes
+30-Above,Male,Corporate,1-14 days,No,No,Yes,No,No,Medium,Yes,No,Maybe
+25-30,Female,Business,Go out Every day,No,Maybe,Maybe,Maybe,Maybe,High,Yes,Maybe,No
+16-20,Male,Housewife,15-30 days,Maybe,Maybe,Maybe,Maybe,Maybe,High,No,Yes,Maybe
+30-Above,Female,Corporate,More than 2 months,Yes,Yes,No,Maybe,Yes,Medium,No,Maybe,Yes
+30-Above,Male,Student,15-30 days,No,No,Yes,Maybe,Yes,Low,No,Maybe,Yes
+20-25,Female,Others,1-14 days,Maybe,Maybe,Maybe,Maybe,No,Medium,No,Yes,Maybe
+25-30,Male,Corporate,31-60 days,Yes,Yes,Maybe,Maybe,Maybe,Medium,No,Maybe,Maybe
+16-20,Female,Others,15-30 days,No,Yes,No,Maybe,No,Low,Yes,No,Yes
+20-25,Male,Business,1-14 days,Maybe,No,Maybe,Yes,Yes,High,No,Yes,No
+20-25,Female,Housewife,More than 2 months,Maybe,Yes,Maybe,Yes,Yes,High,No,Yes,Maybe
+16-20,Female,Student,Go out Every day,No,Maybe,No,Maybe,No,Low,No,Yes,No
+25-30,Male,Housewife,31-60 days,Maybe,Maybe,Maybe,No,Maybe,Low,Yes,Yes,Yes
+20-25,Female,Student,Go out Every day,No,No,Maybe,Yes,Maybe,High,Yes,Maybe,Maybe
+20-25,Female,Others,1-14 days,Yes,No,Yes,Maybe,No,Low,Yes,Maybe,No
+25-30,Female,Corporate,31-60 days,Yes,Maybe,Maybe,Yes,Yes,Medium,Yes,No,No
+30-Above,Male,Student,More than 2 months,Maybe,Yes,No,Yes,Maybe,High,Yes,Maybe,No
+30-Above,Female,Corporate,31-60 days,Yes,No,Yes,Yes,Yes,Medium,Yes,Yes,Yes
+20-25,Male,Student,Go out Every day,Maybe,Maybe,Maybe,Yes,Maybe,High,No,No,Maybe
+30-Above,Male,Corporate,More than 2 months,Yes,No,No,Maybe,Maybe,Medium,Yes,Maybe,Yes
+30-Above,Male,Business,15-30 days,No,Maybe,Yes,Maybe,Maybe,Medium,Yes,Maybe,Yes
+16-20,Male,Student,31-60 days,No,Yes,Maybe,Maybe,Maybe,Low,Yes,Maybe,Maybe
+30-Above,Female,Corporate,31-60 days,No,Maybe,No,Maybe,Yes,High,No,No,Maybe
+25-30,Male,Student,More than 2 months,No,Maybe,Yes,Yes,No,High,No,Maybe,No
+20-25,Male,Business,15-30 days,Maybe,No,Yes,No,Maybe,High,Yes,No,Maybe
+16-20,Female,Business,Go out Every day,No,Yes,Maybe,No,Yes,Low,Yes,Yes,Maybe
+25-30,Female,Business,31-60 days,Yes,No,No,Maybe,Maybe,High,No,No,No
+25-30,Female,Others,31-60 days,Yes,No,Yes,No,Yes,High,Yes,Yes,Yes
+20-25,Male,Business,1-14 days,Maybe,Maybe,Maybe,No,No,High,No,No,Maybe
+30-Above,Female,Others,1-14 days,Yes,Maybe,Maybe,Maybe,Maybe,Medium,Yes,Yes,Yes
+20-25,Female,Student,15-30 days,Maybe,Yes,Maybe,Yes,No,High,Yes,Maybe,No
+30-Above,Female,Corporate,15-30 days,Maybe,Maybe,Yes,Maybe,Maybe,Low,No,No,Maybe
+25-30,Female,Student,More than 2 months,Yes,Maybe,No,Maybe,Yes,Low,No,No,Yes
+30-Above,Male,Others,31-60 days,Maybe,Maybe,No,No,Yes,Medium,Yes,Maybe,Maybe
+25-30,Female,Corporate,31-60 days,No,Yes,Yes,Yes,Yes,Medium,Yes,Yes,Maybe
+20-25,Female,Corporate,More than 2 months,Yes,Maybe,Maybe,Yes,No,High,Yes,Maybe,No
+20-25,Female,Corporate,31-60 days,No,Yes,Maybe,No,No,High,Yes,No,Maybe
+25-30,Female,Business,Go out Every day,No,Yes,No,No,Yes,Medium,Yes,No,Maybe
+25-30,Male,Housewife,1-14 days,Yes,Yes,Maybe,No,Maybe,Low,No,Maybe,No
+16-20,Male,Business,31-60 days,No,No,Yes,Yes,Maybe,High,No,Yes,Maybe
+20-25,Female,Housewife,More than 2 months,Maybe,No,Maybe,Yes,Maybe,Medium,Yes,No,No
+25-30,Female,Others,31-60 days,Yes,Maybe,Maybe,Yes,Yes,High,Yes,Yes,No
+30-Above,Male,Others,Go out Every day,Maybe,Yes,Maybe,Maybe,No,High,No,Maybe,Maybe
+16-20,Female,Others,15-30 days,Yes,Yes,No,Yes,No,High,Yes,Maybe,No
+25-30,Male,Business,15-30 days,Yes,Maybe,Maybe,Yes,No,Medium,No,Maybe,Yes
+25-30,Female,Others,More than 2 months,Yes,Yes,No,No,Maybe,High,Yes,No,Maybe
+30-Above,Male,Corporate,1-14 days,No,Yes,Maybe,Yes,No,Medium,No,Yes,Maybe
+20-25,Female,Housewife,15-30 days,Yes,Yes,No,No,Yes,Low,No,Yes,Yes
+30-Above,Female,Housewife,31-60 days,Yes,No,Yes,No,Maybe,Low,Yes,Maybe,Maybe
+20-25,Male,Business,1-14 days,Yes,Maybe,Maybe,No,Maybe,Medium,Yes,No,Yes
+16-20,Male,Corporate,31-60 days,Maybe,No,Maybe,Maybe,Maybe,High,No,No,Yes
+30-Above,Female,Others,31-60 days,Maybe,No,Maybe,Maybe,No,Low,Yes,No,Yes
+20-25,Female,Student,31-60 days,No,No,Maybe,Maybe,Yes,Medium,Yes,Yes,No
+30-Above,Female,Corporate,15-30 days,No,No,Maybe,Yes,Yes,High,No,No,No
+16-20,Male,Housewife,1-14 days,Yes,Maybe,Yes,Yes,Yes,Medium,No,Maybe,No
+30-Above,Female,Housewife,15-30 days,No,Yes,No,Maybe,No,High,No,Maybe,No
+25-30,Female,Housewife,Go out Every day,No,No,No,No,Maybe,High,No,Maybe,Yes
+16-20,Male,Housewife,15-30 days,Maybe,Maybe,No,No,Yes,Low,Yes,Maybe,Yes
+30-Above,Female,Housewife,More than 2 months,No,Maybe,Maybe,No,Yes,High,No,No,Yes
+25-30,Male,Housewife,15-30 days,Yes,No,Maybe,Yes,No,Medium,No,Maybe,No
+16-20,Male,Student,15-30 days,Maybe,Yes,Maybe,Yes,No,Low,No,No,Yes
+16-20,Female,Student,Go out Every day,No,Yes,Yes,Maybe,Maybe,Medium,No,No,Maybe
+16-20,Female,Housewife,More than 2 months,Maybe,No,Maybe,Maybe,Yes,Low,No,Yes,Maybe
+25-30,Female,Business,Go out Every day,Maybe,Yes,Yes,No,Yes,High,Yes,No,No
+30-Above,Female,Business,15-30 days,Maybe,Maybe,Yes,Yes,No,High,Yes,Yes,Yes
+25-30,Male,Corporate,Go out Every day,Maybe,Maybe,Maybe,No,No,High,No,No,Maybe
+30-Above,Female,Student,More than 2 months,Yes,Yes,Maybe,No,Yes,Low,Yes,No,Yes
+20-25,Female,Business,1-14 days,No,Yes,Maybe,Maybe,No,Medium,Yes,Maybe,No
+25-30,Female,Others,More than 2 months,No,No,Maybe,No,Maybe,High,No,Yes,Maybe
+20-25,Male,Student,More than 2 months,No,Yes,No,No,No,Low,Yes,Yes,No
+20-25,Male,Student,1-14 days,Maybe,Maybe,No,Maybe,Yes,Low,Yes,No,Maybe
+30-Above,Female,Others,15-30 days,No,Yes,Maybe,No,Yes,Medium,Yes,No,Yes
+25-30,Male,Housewife,More than 2 months,No,Yes,Yes,Yes,Yes,Low,Yes,No,No
+16-20,Female,Business,1-14 days,Yes,Maybe,Yes,Yes,Yes,High,Yes,Yes,Maybe
+25-30,Female,Corporate,31-60 days,Maybe,Maybe,Yes,No,Maybe,Low,Yes,No,No
+20-25,Female,Corporate,1-14 days,Yes,No,Yes,Maybe,No,High,No,Maybe,No
+16-20,Male,Corporate,15-30 days,No,No,Yes,No,Yes,High,No,Maybe,Maybe
+30-Above,Male,Business,Go out Every day,Maybe,No,Yes,Yes,Maybe,High,Yes,Maybe,No
+16-20,Male,Housewife,15-30 days,No,No,No,Yes,Yes,Low,No,No,Yes
+25-30,Male,Business,15-30 days,Maybe,No,No,Yes,No,Medium,Yes,Maybe,Maybe
+30-Above,Male,Corporate,Go out Every day,No,No,No,Maybe,Maybe,Low,Yes,Yes,Maybe
+30-Above,Female,Housewife,Go out Every day,Yes,Yes,Maybe,Maybe,Maybe,Medium,Yes,Maybe,No
+16-20,Male,Corporate,Go out Every day,Maybe,No,Yes,No,Maybe,High,No,Maybe,No
+16-20,Male,Corporate,1-14 days,Yes,No,Maybe,Yes,Yes,Low,No,No,Yes
+25-30,Male,Student,15-30 days,No,Yes,Yes,Maybe,Maybe,High,No,No,No
+25-30,Female,Student,1-14 days,Yes,Maybe,No,No,Yes,Medium,Yes,Maybe,Maybe
+16-20,Female,Housewife,Go out Every day,Maybe,No,No,No,No,Low,Yes,Maybe,Maybe
+30-Above,Female,Others,More than 2 months,No,No,Yes,Maybe,No,Low,No,Maybe,Maybe
+30-Above,Female,Business,Go out Every day,Yes,Yes,No,Maybe,Maybe,High,No,No,No
+16-20,Female,Business,15-30 days,No,Yes,Yes,Maybe,No,Low,Yes,Maybe,Yes
+16-20,Female,Business,31-60 days,Yes,No,Yes,Maybe,Maybe,High,No,Yes,No
+25-30,Female,Business,1-14 days,Yes,No,Yes,No,No,High,Yes,Yes,Yes
+30-Above,Male,Housewife,15-30 days,Maybe,No,No,Maybe,Maybe,Medium,No,Maybe,Yes
+30-Above,Male,Business,Go out Every day,Maybe,Yes,Yes,Maybe,No,High,Yes,Maybe,Maybe
+16-20,Male,Others,15-30 days,Yes,Yes,Yes,Yes,No,Medium,No,Yes,No
+16-20,Female,Student,Go out Every day,Maybe,No,Yes,Yes,No,Low,No,Yes,Yes
+16-20,Male,Student,15-30 days,No,Yes,Maybe,Maybe,Maybe,Low,Yes,Yes,Yes
+16-20,Female,Corporate,31-60 days,Maybe,No,No,Maybe,Yes,Medium,Yes,Maybe,No
+20-25,Male,Others,More than 2 months,Maybe,Maybe,Yes,Yes,No,Low,No,No,No
+25-30,Female,Others,15-30 days,Maybe,Yes,No,No,No,Low,Yes,Yes,Maybe
+20-25,Female,Business,15-30 days,Yes,No,No,Yes,No,High,Yes,Maybe,Yes
+20-25,Female,Corporate,15-30 days,Maybe,Yes,No,Maybe,No,High,No,Yes,Yes
+25-30,Male,Others,31-60 days,No,Maybe,Maybe,Maybe,No,Low,Yes,No,Yes
+30-Above,Male,Others,15-30 days,Yes,Yes,Yes,Yes,No,High,Yes,Yes,Yes
+16-20,Female,Others,Go out Every day,Maybe,Maybe,No,Yes,Yes,Low,Yes,No,Maybe
+20-25,Male,Business,1-14 days,Yes,Yes,Yes,No,Yes,Low,No,Maybe,Yes
+30-Above,Male,Student,31-60 days,Yes,Maybe,Yes,Yes,No,Low,No,Maybe,No
+30-Above,Male,Business,15-30 days,Yes,Maybe,Yes,No,Maybe,Medium,No,No,No
+20-25,Male,Corporate,Go out Every day,Yes,Maybe,Maybe,Maybe,No,Low,No,Yes,Maybe
+25-30,Male,Student,More than 2 months,Yes,Yes,Yes,Yes,Yes,High,Yes,Yes,Maybe
+16-20,Female,Corporate,15-30 days,Yes,Yes,No,Yes,No,Medium,Yes,No,Maybe
+25-30,Female,Business,Go out Every day,Maybe,No,Maybe,Yes,No,Medium,Yes,No,No
+20-25,Female,Corporate,31-60 days,Yes,No,Maybe,Yes,Yes,Low,No,Yes,Yes
+25-30,Male,Others,15-30 days,No,No,Yes,No,No,High,No,Maybe,No
+20-25,Male,Corporate,Go out Every day,Yes,Maybe,No,Maybe,Yes,Medium,No,Yes,Yes
+16-20,Female,Others,1-14 days,Yes,Yes,Maybe,Maybe,No,High,No,No,Maybe
+25-30,Female,Corporate,1-14 days,Yes,No,Maybe,No,Yes,High,No,No,Yes
+25-30,Female,Others,15-30 days,Yes,No,Maybe,No,No,High,Yes,Yes,Yes
+20-25,Male,Business,More than 2 months,Yes,Yes,Maybe,Yes,Maybe,Medium,Yes,No,Maybe
+30-Above,Male,Corporate,31-60 days,Maybe,Maybe,No,Maybe,Yes,Medium,No,No,Maybe
+30-Above,Female,Others,1-14 days,Yes,Yes,Yes,Yes,Yes,Medium,No,Yes,No
+20-25,Male,Corporate,31-60 days,No,No,No,No,Maybe,Medium,Yes,Maybe,Yes
+20-25,Male,Corporate,15-30 days,Maybe,No,No,Maybe,Maybe,High,Yes,Maybe,Maybe
+16-20,Male,Student,Go out Every day,Maybe,No,Yes,No,Maybe,Low,No,No,Yes
+25-30,Male,Student,1-14 days,Yes,Maybe,Yes,Yes,Maybe,Medium,Yes,Maybe,No
+30-Above,Female,Housewife,31-60 days,Yes,Maybe,Maybe,Maybe,Yes,Medium,Yes,No,Maybe
+30-Above,Male,Others,31-60 days,No,Maybe,No,No,Maybe,Medium,Yes,No,Yes
+20-25,Female,Housewife,More than 2 months,Yes,No,Maybe,Yes,Yes,Medium,Yes,No,Yes
+30-Above,Male,Corporate,1-14 days,No,Maybe,Yes,Maybe,Maybe,Low,No,Yes,Maybe
+30-Above,Male,Housewife,31-60 days,Yes,Yes,Maybe,Maybe,No,Medium,Yes,Yes,Maybe
+20-25,Female,Corporate,31-60 days,Maybe,Yes,No,No,No,Medium,No,Yes,Yes
+25-30,Female,Student,More than 2 months,Maybe,Maybe,Yes,No,No,Medium,No,Maybe,Maybe
+30-Above,Male,Others,31-60 days,No,Maybe,Yes,Maybe,Yes,High,Yes,No,Maybe
+30-Above,Female,Housewife,1-14 days,Yes,Maybe,Yes,Maybe,Maybe,High,No,No,Yes
+16-20,Female,Corporate,1-14 days,Maybe,Maybe,No,No,Yes,Low,Yes,Maybe,No
+25-30,Female,Student,Go out Every day,Yes,Maybe,No,No,Maybe,High,No,No,No
+25-30,Female,Corporate,31-60 days,Maybe,No,No,No,Yes,Low,No,Yes,Maybe
+30-Above,Female,Corporate,1-14 days,Maybe,Yes,Yes,No,Yes,Low,No,No,Maybe
+20-25,Male,Housewife,More than 2 months,Maybe,No,No,No,Maybe,Medium,Yes,Maybe,No
+16-20,Male,Business,Go out Every day,Yes,No,No,Maybe,Maybe,Low,Yes,Yes,Maybe
+25-30,Female,Corporate,Go out Every day,No,No,Yes,Yes,Maybe,Medium,No,No,Maybe
+25-30,Female,Corporate,1-14 days,Yes,No,Maybe,Maybe,Maybe,Low,No,Yes,No
+16-20,Female,Others,15-30 days,No,Maybe,Maybe,No,Maybe,Medium,Yes,No,No
+16-20,Female,Student,More than 2 months,Yes,Yes,Maybe,Maybe,No,Medium,Yes,Yes,Maybe
+25-30,Female,Corporate,1-14 days,No,Yes,Maybe,No,Yes,Low,No,No,Yes
+20-25,Female,Housewife,31-60 days,Yes,Yes,Maybe,No,No,Low,Yes,Yes,Yes
+25-30,Female,Housewife,31-60 days,Yes,Yes,Maybe,Yes,No,Medium,No,No,No
+30-Above,Male,Others,Go out Every day,Maybe,Yes,Maybe,Yes,Yes,High,Yes,Yes,No
+20-25,Female,Student,Go out Every day,No,Maybe,Yes,Yes,Yes,High,No,Yes,Maybe
+25-30,Female,Student,Go out Every day,Yes,No,Maybe,No,Yes,Low,No,Maybe,Yes
+30-Above,Male,Housewife,Go out Every day,Yes,Maybe,Maybe,Yes,Yes,Low,No,Yes,Yes
+30-Above,Male,Corporate,1-14 days,No,Yes,Maybe,Yes,Yes,Medium,Yes,No,Yes
+30-Above,Male,Housewife,15-30 days,Maybe,No,Maybe,Maybe,Maybe,Low,No,Maybe,Maybe
+16-20,Female,Others,1-14 days,No,No,Maybe,Maybe,Yes,Low,Yes,Yes,Maybe
+16-20,Female,Others,More than 2 months,Maybe,Yes,Yes,Maybe,No,Low,Yes,Yes,Maybe
+25-30,Male,Corporate,More than 2 months,Maybe,No,Yes,No,Yes,Medium,No,No,Yes
+30-Above,Female,Others,More than 2 months,Yes,No,Yes,No,Yes,Medium,Yes,Maybe,Maybe
+25-30,Female,Student,Go out Every day,No,No,No,Maybe,Yes,Low,Yes,Maybe,Yes
+20-25,Female,Business,1-14 days,Yes,Yes,Maybe,Yes,No,Low,No,Maybe,Yes
+25-30,Male,Housewife,Go out Every day,Yes,No,Yes,No,Yes,Low,Yes,No,No
+25-30,Female,Housewife,1-14 days,Maybe,No,Yes,Yes,No,Low,No,No,Maybe
+16-20,Female,Business,1-14 days,Yes,Yes,No,Maybe,No,High,No,Maybe,No
+20-25,Female,Business,15-30 days,Yes,Maybe,Maybe,No,Yes,Low,Yes,No,Maybe
+20-25,Male,Corporate,15-30 days,Yes,Yes,No,Maybe,Yes,Medium,Yes,No,Yes
+20-25,Male,Housewife,Go out Every day,No,Maybe,Yes,No,No,High,No,Maybe,Yes
+25-30,Female,Housewife,1-14 days,Maybe,No,Maybe,No,No,Low,Yes,No,No
+30-Above,Female,Student,More than 2 months,No,Maybe,Maybe,Yes,Yes,Medium,No,Maybe,No
+30-Above,Male,Student,15-30 days,Maybe,Yes,Yes,Yes,No,Medium,No,Yes,Maybe
+30-Above,Female,Corporate,1-14 days,No,Maybe,No,Yes,Yes,High,Yes,Yes,Yes
+30-Above,Male,Others,31-60 days,Maybe,No,Maybe,Maybe,Yes,Medium,No,No,No
+30-Above,Female,Student,More than 2 months,Maybe,No,Maybe,Yes,No,High,No,Maybe,Yes
+16-20,Female,Housewife,Go out Every day,Maybe,Maybe,Yes,No,Yes,Low,Yes,Maybe,No
+30-Above,Female,Business,31-60 days,No,No,Yes,Maybe,Maybe,Low,Yes,No,Maybe
+20-25,Female,Student,Go out Every day,Yes,Maybe,Yes,Yes,Maybe,High,No,No,Maybe
+25-30,Male,Housewife,More than 2 months,Yes,No,Yes,Maybe,No,High,No,No,Yes
+25-30,Female,Corporate,More than 2 months,No,Maybe,Yes,No,Maybe,High,No,Yes,No
+20-25,Male,Business,More than 2 months,Yes,Yes,No,Maybe,No,Low,Yes,Maybe,Yes
+16-20,Female,Student,Go out Every day,Maybe,Yes,Yes,Yes,Yes,Low,Yes,Yes,Maybe
+30-Above,Female,Business,15-30 days,Maybe,Maybe,Yes,Maybe,Maybe,Medium,No,No,Yes
+16-20,Male,Housewife,1-14 days,No,Yes,Maybe,No,No,Low,No,Yes,Yes
+16-20,Male,Housewife,Go out Every day,No,Yes,Yes,Maybe,No,Medium,Yes,No,Maybe
+16-20,Female,Business,1-14 days,Yes,Maybe,No,No,No,High,No,Yes,Yes
+16-20,Female,Others,31-60 days,Yes,Yes,Maybe,Maybe,No,High,No,Yes,No
+30-Above,Male,Housewife,Go out Every day,Maybe,Maybe,Yes,Yes,Maybe,High,Yes,Maybe,Maybe
+16-20,Male,Corporate,1-14 days,Yes,Yes,Maybe,No,Yes,Low,No,Maybe,No
+20-25,Male,Student,1-14 days,Maybe,Maybe,Yes,No,Yes,High,No,Yes,Maybe
+16-20,Male,Student,More than 2 months,Yes,Yes,Maybe,Yes,No,Medium,Yes,No,Maybe
+20-25,Female,Corporate,31-60 days,Yes,Yes,Maybe,Yes,Yes,High,No,Maybe,Maybe
+30-Above,Female,Business,31-60 days,Maybe,Maybe,No,Yes,Maybe,Low,No,Yes,Maybe
+25-30,Female,Student,Go out Every day,No,No,Yes,Yes,Maybe,Low,No,No,Yes
+20-25,Female,Business,More than 2 months,No,Yes,Yes,Maybe,No,High,Yes,Maybe,Yes
+30-Above,Female,Business,31-60 days,Maybe,No,Yes,Maybe,Yes,High,Yes,No,Yes
+30-Above,Female,Others,More than 2 months,Yes,Maybe,No,No,No,Medium,Yes,Maybe,Maybe
+25-30,Female,Business,1-14 days,Yes,Maybe,Maybe,Yes,No,Medium,Yes,Yes,No
+16-20,Male,Housewife,Go out Every day,No,No,Maybe,Maybe,Maybe,Medium,No,Maybe,No
+30-Above,Female,Others,15-30 days,No,Yes,Yes,Yes,Yes,Low,No,Yes,Yes
+16-20,Male,Corporate,15-30 days,Yes,No,No,Yes,Yes,High,Yes,Maybe,Maybe
+20-25,Female,Housewife,31-60 days,Yes,Maybe,Maybe,Maybe,Yes,Low,No,Yes,Maybe
+16-20,Male,Housewife,31-60 days,No,Yes,Yes,Maybe,Yes,Low,Yes,Maybe,Yes
+30-Above,Female,Housewife,15-30 days,Yes,Yes,Yes,Yes,No,Medium,Yes,Maybe,Maybe
+16-20,Female,Housewife,31-60 days,Maybe,Maybe,No,No,Maybe,Medium,No,No,Maybe
+20-25,Male,Housewife,15-30 days,Maybe,Maybe,Maybe,Maybe,Maybe,High,No,No,Yes
+30-Above,Male,Student,31-60 days,Yes,No,No,No,Maybe,High,Yes,No,Maybe
+20-25,Female,Housewife,15-30 days,No,No,Yes,Maybe,Maybe,Low,Yes,Yes,Maybe
+25-30,Male,Student,1-14 days,Maybe,No,No,Yes,Maybe,Medium,No,Yes,Maybe
+30-Above,Male,Business,15-30 days,No,Yes,Maybe,No,Maybe,High,No,Maybe,Yes
+20-25,Female,Others,31-60 days,No,Maybe,Yes,Maybe,No,High,Yes,No,Yes
+25-30,Male,Business,1-14 days,No,Yes,No,No,Yes,Low,No,Maybe,No
+30-Above,Male,Business,Go out Every day,Yes,No,Yes,No,No,Medium,No,No,No
+16-20,Female,Others,15-30 days,No,Maybe,Maybe,Maybe,Yes,High,No,Maybe,Maybe
+30-Above,Female,Corporate,More than 2 months,No,Maybe,Yes,Maybe,Yes,Low,Yes,Maybe,Yes
+25-30,Male,Student,Go out Every day,Maybe,Maybe,No,Yes,Maybe,High,Yes,Yes,Maybe
+25-30,Female,Others,More than 2 months,Maybe,Maybe,Maybe,No,Maybe,Medium,Yes,No,No
+16-20,Male,Corporate,More than 2 months,No,Yes,Maybe,Yes,No,High,Yes,Yes,No
+16-20,Male,Student,31-60 days,Yes,Maybe,No,No,No,High,Yes,Yes,Yes
+25-30,Male,Others,Go out Every day,No,Maybe,No,Maybe,No,Medium,No,Maybe,Maybe
+25-30,Female,Housewife,More than 2 months,Maybe,Yes,Yes,Maybe,Yes,High,Yes,No,Yes
+30-Above,Male,Housewife,Go out Every day,Maybe,Maybe,Yes,No,Maybe,Low,No,Yes,Maybe
+20-25,Female,Student,Go out Every day,Yes,Yes,No,Maybe,Yes,Medium,No,Maybe,Maybe
+25-30,Female,Business,Go out Every day,No,Maybe,Yes,No,Maybe,Medium,No,Maybe,Maybe
+25-30,Female,Business,15-30 days,No,Maybe,Yes,Yes,Yes,High,No,Yes,No
+20-25,Female,Housewife,31-60 days,Yes,Maybe,No,Maybe,Maybe,Medium,No,Yes,Maybe
+30-Above,Female,Corporate,15-30 days,Yes,Yes,Maybe,No,No,High,No,Maybe,No
+16-20,Female,Student,Go out Every day,No,Yes,Yes,Yes,Yes,Low,No,No,Maybe
+16-20,Female,Student,Go out Every day,Yes,No,Yes,Maybe,Yes,Medium,No,No,No
+30-Above,Male,Business,31-60 days,No,Yes,Yes,Yes,Maybe,Medium,No,Yes,Maybe
+25-30,Female,Housewife,Go out Every day,Maybe,Maybe,Yes,Yes,Yes,Low,Yes,Maybe,Maybe
+16-20,Male,Housewife,More than 2 months,Yes,Maybe,Maybe,Maybe,No,Low,Yes,No,Yes
+20-25,Male,Others,1-14 days,Yes,Yes,Yes,No,Maybe,Low,Yes,No,Yes
+25-30,Female,Housewife,15-30 days,Yes,Yes,Maybe,Maybe,No,High,Yes,Maybe,Maybe
+30-Above,Male,Student,More than 2 months,Maybe,Maybe,Yes,No,Maybe,Low,No,No,No
+16-20,Male,Student,15-30 days,Yes,No,No,Maybe,No,High,No,Maybe,Maybe
+25-30,Male,Corporate,1-14 days,Maybe,Maybe,No,No,Yes,Low,Yes,Maybe,Yes
+30-Above,Male,Corporate,More than 2 months,No,Yes,Yes,No,Yes,Medium,Yes,No,No
+30-Above,Male,Housewife,More than 2 months,Yes,Maybe,No,No,Yes,Low,No,No,Yes
+20-25,Male,Others,1-14 days,Yes,Maybe,Maybe,Maybe,Maybe,Low,No,No,Maybe
+16-20,Male,Business,More than 2 months,Maybe,Maybe,Maybe,No,Yes,High,Yes,Maybe,Yes
+30-Above,Female,Housewife,15-30 days,Maybe,Yes,No,Maybe,No,Low,Yes,Yes,No
+20-25,Female,Business,31-60 days,Yes,Yes,Yes,Maybe,Maybe,Low,Yes,Maybe,No
+20-25,Female,Housewife,Go out Every day,Maybe,Maybe,Maybe,Yes,No,Medium,Yes,Maybe,Yes
+20-25,Male,Others,1-14 days,Maybe,No,Yes,Maybe,No,Low,Yes,Maybe,Maybe
+20-25,Male,Housewife,1-14 days,No,No,Yes,Maybe,No,Low,Yes,Yes,Yes
+20-25,Male,Housewife,31-60 days,No,Yes,Yes,No,Maybe,Low,Yes,Maybe,Maybe
+25-30,Male,Business,31-60 days,No,Maybe,Yes,Maybe,Maybe,Low,No,Maybe,Yes
+25-30,Female,Housewife,15-30 days,No,Yes,Yes,Maybe,Maybe,Medium,No,No,No
+16-20,Female,Others,1-14 days,Yes,Maybe,Maybe,Yes,Yes,Low,Yes,No,Maybe
+30-Above,Male,Others,1-14 days,Maybe,No,No,Yes,Yes,Medium,Yes,No,No
+20-25,Female,Housewife,1-14 days,Yes,Yes,No,Yes,No,Medium,No,Maybe,Maybe
+16-20,Male,Corporate,1-14 days,Maybe,No,Yes,Yes,Maybe,High,No,No,Yes
+16-20,Female,Others,More than 2 months,No,No,Yes,Yes,Yes,Low,Yes,Yes,No
+16-20,Male,Housewife,31-60 days,Maybe,Maybe,No,Maybe,Maybe,High,Yes,Yes,Yes
+25-30,Male,Housewife,15-30 days,No,No,No,No,Maybe,Low,No,No,No
+16-20,Female,Student,More than 2 months,Yes,No,Maybe,Maybe,Maybe,Low,Yes,Maybe,Yes
+30-Above,Female,Corporate,1-14 days,Maybe,No,Yes,Maybe,Yes,High,Yes,No,No
+30-Above,Female,Student,15-30 days,No,No,Yes,No,Maybe,Medium,Yes,Maybe,Maybe
+25-30,Male,Housewife,1-14 days,Yes,No,Yes,No,Maybe,Medium,No,No,Yes
+20-25,Female,Others,More than 2 months,No,No,No,Yes,No,High,No,No,Yes
+16-20,Male,Others,31-60 days,Yes,No,Maybe,Yes,No,High,Yes,Maybe,Yes
+16-20,Male,Corporate,15-30 days,No,Yes,No,No,Yes,Medium,No,Maybe,Maybe
+25-30,Female,Student,31-60 days,Yes,No,Maybe,No,No,High,Yes,No,No
+20-25,Female,Student,Go out Every day,Yes,No,Yes,Yes,No,Medium,Yes,No,Yes
+30-Above,Female,Housewife,31-60 days,Maybe,No,Yes,Yes,Yes,Low,No,Maybe,Maybe
+25-30,Male,Corporate,1-14 days,Yes,No,No,No,Maybe,Medium,No,No,No
+20-25,Male,Business,15-30 days,Maybe,Yes,Maybe,No,No,Medium,Yes,Maybe,Yes
+20-25,Female,Corporate,31-60 days,Maybe,Maybe,Maybe,Yes,Yes,Medium,Yes,Yes,No
+30-Above,Male,Housewife,More than 2 months,Maybe,Yes,Yes,No,Maybe,Medium,No,Maybe,No
+30-Above,Male,Business,More than 2 months,Maybe,Yes,No,No,Yes,Medium,No,No,No
+20-25,Female,Others,31-60 days,Yes,No,No,No,Yes,Medium,Yes,Yes,Maybe
+16-20,Male,Student,1-14 days,Maybe,Maybe,Yes,No,Yes,Medium,No,No,Maybe
+20-25,Male,Business,1-14 days,No,Yes,Maybe,Yes,Maybe,Low,No,No,Yes
+16-20,Female,Housewife,15-30 days,No,Yes,No,No,Maybe,High,Yes,Maybe,Yes
+20-25,Male,Business,1-14 days,Maybe,No,No,No,Maybe,Low,Yes,Yes,No
+30-Above,Female,Corporate,More than 2 months,Maybe,Maybe,Maybe,Maybe,Maybe,High,No,No,Maybe
+16-20,Male,Corporate,Go out Every day,Maybe,Yes,No,No,No,Medium,Yes,Yes,No
+30-Above,Female,Corporate,31-60 days,Yes,Maybe,No,No,Yes,Low,No,Yes,Maybe
+30-Above,Male,Housewife,1-14 days,Maybe,Yes,Yes,No,Maybe,Low,No,Maybe,No
+20-25,Male,Business,More than 2 months,Yes,Yes,Maybe,No,No,Medium,Yes,Maybe,Yes
+25-30,Male,Corporate,15-30 days,No,Yes,Yes,No,Maybe,High,No,Yes,No
+20-25,Male,Housewife,1-14 days,No,Yes,Yes,No,Yes,Medium,No,Maybe,No
+30-Above,Female,Student,More than 2 months,Yes,No,Maybe,Maybe,Yes,High,Yes,No,No
+16-20,Male,Student,31-60 days,No,No,Maybe,Yes,Yes,High,Yes,Maybe,No
+16-20,Male,Others,Go out Every day,Yes,Yes,Maybe,No,No,Low,Yes,No,No
+16-20,Male,Student,15-30 days,Maybe,Yes,Maybe,Maybe,No,Low,Yes,Yes,Maybe
+25-30,Female,Student,More than 2 months,Yes,Yes,No,No,Maybe,Low,No,Yes,Maybe
+25-30,Male,Housewife,1-14 days,Maybe,Yes,Yes,Maybe,No,Low,No,Yes,No
+20-25,Female,Others,More than 2 months,Maybe,Maybe,Maybe,No,No,Medium,No,Maybe,Maybe
+30-Above,Male,Corporate,More than 2 months,No,Yes,No,Maybe,No,High,Yes,Maybe,Yes
+25-30,Female,Housewife,31-60 days,No,Maybe,Yes,Yes,No,High,No,No,Yes
+30-Above,Female,Student,More than 2 months,No,No,No,No,No,Low,Yes,No,Yes
+16-20,Male,Business,More than 2 months,No,Yes,Yes,No,No,High,Yes,No,Yes
+25-30,Female,Housewife,15-30 days,Maybe,Yes,Yes,Yes,Yes,High,No,Yes,Maybe
+25-30,Female,Housewife,More than 2 months,Maybe,No,Yes,No,No,High,No,Yes,No
+16-20,Female,Housewife,Go out Every day,Yes,Yes,Maybe,No,No,High,No,Maybe,Maybe
+20-25,Female,Corporate,1-14 days,Maybe,No,Maybe,Maybe,Yes,High,Yes,Yes,No
+25-30,Female,Corporate,More than 2 months,Maybe,Yes,Yes,No,Yes,Medium,No,Maybe,Maybe
+25-30,Female,Student,15-30 days,Maybe,No,Maybe,Maybe,Maybe,High,No,No,Yes
+30-Above,Female,Business,More than 2 months,Yes,Yes,Yes,Maybe,Maybe,Low,No,Yes,Maybe
+30-Above,Male,Others,Go out Every day,No,Maybe,No,No,Yes,Medium,No,No,Yes
+30-Above,Male,Others,More than 2 months,Maybe,Yes,No,No,Yes,Medium,No,No,Yes
+25-30,Female,Others,31-60 days,Yes,No,Maybe,Maybe,Yes,Medium,No,Yes,No
+16-20,Female,Housewife,15-30 days,Yes,No,No,Maybe,Maybe,High,Yes,Yes,No
+30-Above,Female,Student,31-60 days,No,No,Yes,No,No,High,No,No,Maybe
+16-20,Female,Housewife,15-30 days,Yes,Yes,No,No,Maybe,High,Yes,Maybe,Yes
+20-25,Female,Business,Go out Every day,No,Maybe,Yes,Maybe,Yes,Medium,No,Maybe,No
+16-20,Male,Corporate,More than 2 months,Yes,Yes,Maybe,Maybe,No,Medium,No,No,No
+25-30,Female,Student,1-14 days,Yes,Yes,No,Maybe,Maybe,High,Yes,No,Yes
+16-20,Female,Student,31-60 days,No,No,Maybe,No,Maybe,Medium,No,Maybe,Maybe
+16-20,Female,Corporate,Go out Every day,Maybe,Maybe,Yes,Yes,Yes,Medium,Yes,Maybe,Yes
+25-30,Male,Housewife,Go out Every day,No,No,Maybe,No,Yes,Low,Yes,No,Maybe
+16-20,Female,Business,15-30 days,Maybe,Yes,Maybe,Yes,Maybe,Medium,No,Yes,Maybe
+25-30,Female,Others,More than 2 months,No,Yes,No,Yes,Maybe,High,Yes,Maybe,No
+20-25,Female,Others,1-14 days,Maybe,Maybe,No,Yes,No,Medium,No,No,Maybe
+20-25,Male,Student,15-30 days,No,Yes,Maybe,No,Yes,High,No,Yes,No
+30-Above,Female,Others,31-60 days,No,Maybe,Yes,Maybe,No,Low,Yes,No,Yes
+20-25,Male,Housewife,1-14 days,Yes,Yes,No,Maybe,Yes,High,No,Yes,No
+30-Above,Male,Others,15-30 days,No,Yes,Maybe,Yes,No,High,No,Yes,No
+30-Above,Female,Others,More than 2 months,Maybe,Yes,No,No,Yes,Medium,No,No,Maybe
+20-25,Male,Others,15-30 days,No,No,Yes,Yes,Yes,Low,Yes,Maybe,Yes
+20-25,Female,Housewife,31-60 days,Maybe,Yes,Maybe,No,Yes,High,Yes,Yes,Maybe
+30-Above,Male,Housewife,31-60 days,Maybe,No,Yes,Yes,No,Low,Yes,Yes,Yes
+30-Above,Female,Housewife,Go out Every day,No,No,No,No,Yes,Low,Yes,No,Maybe
+20-25,Female,Business,31-60 days,Yes,No,No,No,No,Low,No,Maybe,No
+25-30,Female,Others,15-30 days,Maybe,Maybe,No,Yes,No,Low,No,No,Maybe
+25-30,Male,Housewife,1-14 days,Maybe,No,Maybe,Maybe,Maybe,Low,No,Yes,No
+20-25,Male,Housewife,Go out Every day,Maybe,Yes,No,Maybe,No,Low,No,No,Yes
+20-25,Female,Corporate,15-30 days,Maybe,No,Yes,Yes,No,Low,No,Yes,Maybe
+20-25,Female,Housewife,More than 2 months,Yes,Maybe,No,Maybe,No,High,Yes,Maybe,No
+25-30,Male,Business,1-14 days,Maybe,No,Yes,No,Maybe,Medium,No,No,Yes
+16-20,Male,Business,Go out Every day,Yes,No,No,Yes,Maybe,Low,Yes,No,No
+20-25,Male,Housewife,Go out Every day,Maybe,Maybe,No,Maybe,Yes,Low,Yes,Maybe,No
+30-Above,Female,Others,15-30 days,Yes,Yes,Yes,Yes,Maybe,High,No,No,Maybe
+16-20,Female,Student,15-30 days,No,No,No,Maybe,No,Medium,No,Maybe,Yes
+16-20,Female,Student,1-14 days,Maybe,No,Maybe,No,Yes,High,No,Maybe,Yes
+16-20,Female,Business,15-30 days,Maybe,Maybe,Yes,Maybe,Yes,High,No,Maybe,Yes
+16-20,Female,Student,15-30 days,No,No,Maybe,Maybe,Maybe,High,No,Yes,Yes
+25-30,Female,Business,More than 2 months,No,Maybe,Yes,Yes,No,Low,Yes,Yes,Maybe
+16-20,Female,Housewife,15-30 days,No,No,Yes,No,No,Medium,No,No,Yes
+20-25,Female,Student,15-30 days,No,Yes,Yes,No,No,High,Yes,Maybe,No
+30-Above,Female,Housewife,More than 2 months,Yes,Maybe,Yes,Yes,Maybe,Low,No,Yes,Yes
+25-30,Female,Others,1-14 days,No,Yes,Maybe,Yes,No,Medium,Yes,No,Yes
+25-30,Female,Student,31-60 days,Maybe,No,Maybe,Maybe,Yes,Low,Yes,Yes,No
+20-25,Female,Others,Go out Every day,Yes,Yes,Maybe,No,Maybe,Low,No,Yes,Yes
+30-Above,Female,Housewife,1-14 days,No,Yes,Maybe,Maybe,Maybe,High,No,No,No
+20-25,Female,Housewife,1-14 days,Yes,Maybe,Maybe,Maybe,No,High,Yes,Maybe,No
+16-20,Female,Housewife,1-14 days,Maybe,Maybe,Yes,Yes,No,Medium,No,No,Yes
+20-25,Female,Housewife,More than 2 months,Maybe,No,Maybe,No,Yes,High,No,No,Maybe
+30-Above,Male,Business,Go out Every day,Yes,No,Yes,Yes,Maybe,High,Yes,Yes,Yes
+30-Above,Male,Others,More than 2 months,Maybe,No,Yes,No,Yes,Low,No,Maybe,Yes
+16-20,Male,Others,More than 2 months,Maybe,Yes,Maybe,Maybe,Yes,High,Yes,No,Maybe
+25-30,Female,Corporate,1-14 days,No,Yes,Yes,Yes,Maybe,High,Yes,No,Yes
+20-25,Male,Housewife,More than 2 months,No,Maybe,No,Maybe,Maybe,High,Yes,No,No
+20-25,Female,Others,31-60 days,Maybe,Yes,Yes,No,No,Medium,No,Maybe,Yes
+30-Above,Female,Student,More than 2 months,Maybe,Yes,No,Maybe,No,Low,No,Maybe,No
+16-20,Female,Business,31-60 days,Maybe,No,No,Yes,No,Medium,Yes,No,No
+25-30,Male,Housewife,1-14 days,Yes,Yes,No,Maybe,Yes,Low,No,No,No
+16-20,Male,Housewife,31-60 days,No,Maybe,Maybe,Yes,No,Medium,Yes,Maybe,No
+25-30,Male,Housewife,1-14 days,Maybe,Yes,Yes,Yes,Yes,Medium,Yes,No,Yes
+25-30,Female,Business,31-60 days,No,Yes,No,Yes,Yes,Medium,No,No,No
+30-Above,Male,Housewife,31-60 days,Yes,Yes,No,Yes,No,High,Yes,Maybe,No
+25-30,Male,Student,15-30 days,No,Maybe,No,Maybe,Yes,High,Yes,No,No
+30-Above,Male,Housewife,Go out Every day,Maybe,No,No,No,Yes,High,Yes,No,Maybe
+30-Above,Female,Student,Go out Every day,Yes,Yes,Maybe,Maybe,Yes,Low,Yes,No,No
+20-25,Female,Others,31-60 days,Yes,Maybe,No,Yes,No,High,No,No,Maybe
+25-30,Female,Others,15-30 days,No,No,Maybe,Maybe,Maybe,Low,Yes,Maybe,Maybe
+20-25,Male,Student,31-60 days,Yes,Maybe,Maybe,No,No,Low,Yes,Maybe,Maybe
+30-Above,Female,Others,1-14 days,Yes,Yes,Yes,Yes,No,High,No,No,Maybe
+25-30,Female,Corporate,1-14 days,Yes,No,Yes,Yes,Yes,Medium,No,Yes,Yes
+30-Above,Male,Corporate,More than 2 months,No,No,Maybe,Maybe,Maybe,Medium,No,Maybe,Maybe
+16-20,Female,Business,Go out Every day,Maybe,Maybe,Yes,Maybe,Maybe,Low,No,Maybe,Maybe
+20-25,Female,Student,Go out Every day,Yes,Yes,No,Maybe,Yes,Low,Yes,No,Maybe
+30-Above,Male,Others,Go out Every day,No,No,Yes,No,Maybe,Low,No,Yes,Yes
+20-25,Male,Business,1-14 days,Yes,No,Maybe,Yes,Yes,High,No,Yes,Yes
+25-30,Female,Student,Go out Every day,No,No,No,Maybe,Yes,High,Yes,No,No
+16-20,Female,Student,1-14 days,Yes,No,No,Yes,Yes,Low,Yes,Yes,Yes
+25-30,Male,Corporate,Go out Every day,Yes,Maybe,Yes,Yes,No,Medium,Yes,No,No
+20-25,Male,Student,31-60 days,No,Maybe,Maybe,No,No,Medium,Yes,Maybe,Yes
+30-Above,Male,Housewife,1-14 days,No,Yes,Maybe,Yes,No,Medium,No,Maybe,Yes
+16-20,Female,Others,1-14 days,Yes,Yes,Maybe,No,No,Medium,Yes,Yes,No
+20-25,Male,Business,1-14 days,Maybe,Yes,Maybe,No,No,Medium,Yes,No,No
+30-Above,Male,Housewife,More than 2 months,Maybe,No,Yes,Yes,Maybe,High,Yes,No,No
+25-30,Male,Corporate,Go out Every day,No,No,No,No,Maybe,Medium,Yes,Yes,Yes
+25-30,Female,Student,Go out Every day,Yes,Yes,No,Yes,Maybe,Medium,No,Yes,No
+20-25,Female,Corporate,31-60 days,Maybe,No,No,Yes,No,Medium,Yes,No,Yes
+25-30,Male,Others,1-14 days,Maybe,No,Maybe,Maybe,Yes,Low,No,No,Maybe
+30-Above,Male,Corporate,31-60 days,Yes,No,Maybe,Maybe,No,Medium,No,Yes,No
+20-25,Male,Student,1-14 days,Yes,Maybe,Maybe,Maybe,Maybe,High,Yes,Maybe,Yes
+25-30,Female,Business,More than 2 months,Maybe,Yes,Yes,No,Maybe,Medium,No,No,Yes
+20-25,Female,Housewife,15-30 days,No,No,No,Maybe,Maybe,High,No,No,No
+25-30,Male,Student,More than 2 months,Maybe,Yes,Yes,No,Maybe,Medium,Yes,No,No
+30-Above,Female,Corporate,Go out Every day,Yes,No,No,Maybe,Yes,High,Yes,Yes,Yes
+16-20,Female,Corporate,More than 2 months,No,No,No,Maybe,No,High,No,No,Maybe
+16-20,Male,Corporate,31-60 days,Yes,No,Maybe,Yes,Yes,Medium,Yes,Maybe,No
+20-25,Male,Business,Go out Every day,Maybe,Yes,No,Yes,Maybe,Medium,No,Yes,Maybe
+30-Above,Female,Business,More than 2 months,No,No,Maybe,Maybe,Yes,High,Yes,Maybe,No
+25-30,Female,Others,1-14 days,Yes,Yes,No,No,Maybe,Low,No,Maybe,Maybe
+30-Above,Female,Others,More than 2 months,No,Maybe,No,Maybe,No,Low,No,Yes,No
+20-25,Male,Corporate,15-30 days,Yes,Yes,No,Yes,No,Medium,Yes,Maybe,Maybe
+16-20,Male,Corporate,Go out Every day,No,Maybe,No,Yes,Yes,Low,Yes,No,Maybe
+16-20,Female,Business,1-14 days,No,No,No,No,Maybe,Medium,No,No,Yes
+25-30,Male,Corporate,31-60 days,Yes,Yes,Maybe,Yes,Yes,Low,No,Yes,Yes
+20-25,Female,Business,15-30 days,No,Maybe,No,No,No,Medium,Yes,No,No
+30-Above,Male,Others,15-30 days,Yes,No,Yes,Yes,Yes,Low,Yes,Yes,No
+30-Above,Female,Housewife,31-60 days,Maybe,Maybe,Yes,Yes,No,High,Yes,Maybe,Maybe
+25-30,Male,Corporate,More than 2 months,No,Maybe,No,Yes,No,High,No,Yes,Yes
+16-20,Male,Student,31-60 days,Yes,Maybe,Yes,Maybe,No,Medium,No,No,Yes
+25-30,Female,Corporate,15-30 days,Yes,No,No,No,Yes,Medium,Yes,No,Maybe
+25-30,Male,Student,1-14 days,Maybe,No,Yes,Maybe,No,Medium,No,No,No
+20-25,Female,Others,More than 2 months,No,Maybe,Maybe,No,No,Medium,No,No,No
+16-20,Female,Others,Go out Every day,Yes,Maybe,Yes,Maybe,No,Medium,Yes,Yes,Yes
+30-Above,Male,Others,More than 2 months,Yes,Maybe,Maybe,Maybe,Yes,Low,No,Maybe,No
+20-25,Male,Housewife,Go out Every day,Maybe,Yes,Maybe,Maybe,Maybe,Medium,Yes,No,Yes
+20-25,Male,Corporate,31-60 days,Yes,Maybe,Yes,Maybe,Yes,High,No,Yes,Maybe
+30-Above,Male,Housewife,1-14 days,No,Yes,No,No,Yes,Low,No,Maybe,Yes
+16-20,Female,Housewife,1-14 days,Maybe,Yes,Yes,Yes,Yes,Low,Yes,No,Yes
+25-30,Male,Student,Go out Every day,Maybe,No,No,Maybe,No,Low,Yes,No,Yes
+25-30,Female,Others,15-30 days,No,No,No,Yes,No,Medium,Yes,Yes,No
+16-20,Male,Business,1-14 days,Yes,Maybe,No,Yes,No,Medium,No,Yes,Yes
+20-25,Female,Business,15-30 days,Maybe,Maybe,Yes,Yes,Maybe,High,No,Maybe,Maybe
+16-20,Female,Corporate,Go out Every day,No,No,Maybe,Yes,Yes,High,No,Maybe,Yes
+30-Above,Male,Others,31-60 days,Yes,Yes,Yes,No,No,High,No,Yes,Maybe
+20-25,Female,Housewife,1-14 days,Yes,Yes,No,Yes,No,Low,Yes,No,Yes
+30-Above,Male,Others,31-60 days,No,Maybe,No,Yes,No,High,No,No,No
+16-20,Female,Business,Go out Every day,Maybe,Yes,Yes,Maybe,Yes,Low,No,Yes,Yes
+20-25,Female,Others,15-30 days,Yes,Maybe,Maybe,Yes,No,High,No,Maybe,Yes
+16-20,Male,Business,31-60 days,No,No,No,No,Maybe,Low,Yes,No,No
+30-Above,Male,Student,15-30 days,Yes,No,Maybe,Maybe,Yes,High,No,Maybe,No
+25-30,Male,Corporate,31-60 days,Maybe,Yes,Yes,No,Maybe,Medium,No,Yes,Yes
+20-25,Male,Housewife,1-14 days,Maybe,No,No,Maybe,No,Low,Yes,No,Yes
+16-20,Male,Student,Go out Every day,Yes,No,Yes,No,No,Medium,No,Maybe,Maybe
+30-Above,Female,Housewife,15-30 days,No,Maybe,Maybe,Maybe,Maybe,Low,Yes,Yes,No
+25-30,Female,Others,31-60 days,No,No,Maybe,Maybe,Maybe,High,Yes,Maybe,No
+30-Above,Male,Corporate,31-60 days,Maybe,Maybe,Yes,Yes,No,Medium,No,Yes,No
+20-25,Female,Student,1-14 days,No,No,Yes,Yes,No,Medium,No,Yes,Yes
+25-30,Female,Student,1-14 days,Yes,No,No,Maybe,Maybe,High,No,Maybe,Maybe
+16-20,Female,Student,More than 2 months,Yes,Yes,Yes,Maybe,No,Medium,Yes,Yes,No
+30-Above,Female,Housewife,Go out Every day,Maybe,Yes,Yes,Yes,Yes,Low,Yes,Maybe,Yes
+20-25,Male,Others,15-30 days,Maybe,Maybe,No,Yes,No,High,No,Yes,Maybe
+30-Above,Female,Others,31-60 days,Maybe,Maybe,Maybe,Yes,No,Medium,Yes,Maybe,Yes
+20-25,Male,Corporate,1-14 days,No,Yes,Yes,No,Yes,Low,Yes,No,Yes
+30-Above,Female,Student,1-14 days,No,Maybe,No,Yes,Yes,Medium,No,Maybe,No
+30-Above,Female,Housewife,31-60 days,Maybe,Yes,Yes,Yes,Maybe,Medium,Yes,Maybe,Maybe
+16-20,Male,Business,1-14 days,Yes,Yes,Maybe,No,Maybe,Medium,No,Maybe,Maybe
+25-30,Female,Others,More than 2 months,Yes,Yes,Maybe,Maybe,No,High,Yes,Maybe,Yes
+20-25,Male,Student,31-60 days,Yes,No,Yes,Yes,No,Medium,No,No,No
+16-20,Male,Housewife,1-14 days,No,Yes,Yes,No,No,High,Yes,No,Yes
+25-30,Male,Others,31-60 days,No,Yes,Yes,Maybe,Maybe,Low,No,Maybe,Maybe
+16-20,Female,Student,15-30 days,No,Maybe,Yes,No,Yes,Low,No,Maybe,Maybe
+30-Above,Female,Business,31-60 days,No,Yes,Yes,Maybe,Maybe,Medium,Yes,Yes,Maybe
+16-20,Female,Housewife,More than 2 months,No,Yes,Maybe,Maybe,Yes,Medium,No,No,No
+25-30,Female,Business,1-14 days,Maybe,Yes,Yes,No,Yes,Medium,Yes,Maybe,Yes
+25-30,Female,Business,1-14 days,Yes,No,Yes,No,Yes,Medium,Yes,Yes,Yes
+25-30,Male,Corporate,More than 2 months,Yes,Yes,No,Maybe,Maybe,Low,No,Maybe,No
+16-20,Male,Others,31-60 days,No,Yes,Yes,No,Maybe,Medium,Yes,Maybe,No
+16-20,Male,Student,Go out Every day,Maybe,Yes,Maybe,Yes,Maybe,High,No,Maybe,Maybe
+16-20,Female,Student,15-30 days,Maybe,No,No,No,No,Low,Yes,No,Maybe
+30-Above,Male,Business,1-14 days,Yes,No,Maybe,No,No,High,Yes,Maybe,Yes
+16-20,Male,Corporate,Go out Every day,No,Yes,Yes,No,No,Low,Yes,Maybe,Maybe
+20-25,Male,Others,1-14 days,No,No,Yes,No,Maybe,Low,No,Maybe,No
+30-Above,Male,Business,15-30 days,No,No,Yes,Yes,No,Medium,Yes,No,No
+20-25,Male,Others,1-14 days,Maybe,No,Maybe,Yes,Maybe,Medium,No,No,Maybe
+30-Above,Female,Others,More than 2 months,Yes,Maybe,No,Maybe,Maybe,High,Yes,No,No
+25-30,Male,Student,More than 2 months,No,Maybe,Maybe,Yes,Yes,Low,Yes,Yes,Maybe
+25-30,Female,Corporate,31-60 days,Yes,Yes,No,Maybe,No,Low,No,Maybe,No
+25-30,Female,Others,31-60 days,Yes,No,Yes,No,No,Medium,No,Yes,Maybe
+16-20,Female,Housewife,More than 2 months,Maybe,Yes,No,Maybe,Yes,Low,Yes,Yes,Yes
+30-Above,Male,Others,1-14 days,Maybe,No,Yes,No,No,Low,No,Yes,No
+30-Above,Female,Student,Go out Every day,No,Yes,Maybe,No,Yes,High,Yes,Maybe,Maybe
+25-30,Female,Housewife,1-14 days,Yes,Yes,Maybe,Maybe,Yes,Medium,Yes,Yes,No
+30-Above,Female,Others,1-14 days,Yes,Yes,No,No,No,High,Yes,Maybe,Yes
+16-20,Male,Student,1-14 days,No,Maybe,Yes,No,Yes,High,Yes,Maybe,Maybe
+20-25,Male,Business,31-60 days,Yes,Maybe,Maybe,Yes,No,Low,Yes,Yes,Yes
+30-Above,Male,Housewife,15-30 days,Yes,Yes,Yes,Yes,Maybe,Low,Yes,Yes,No
+30-Above,Male,Housewife,1-14 days,No,Yes,Yes,No,Maybe,High,Yes,Yes,Maybe
+16-20,Male,Others,1-14 days,No,No,Yes,No,No,Medium,Yes,Maybe,No
+16-20,Female,Student,Go out Every day,No,Maybe,No,Maybe,No,Low,Yes,Maybe,No
+25-30,Female,Housewife,15-30 days,Maybe,No,Yes,No,Maybe,Low,No,No,No
+25-30,Female,Housewife,1-14 days,Yes,Maybe,Yes,Yes,Yes,Medium,Yes,Yes,Maybe
+16-20,Female,Business,31-60 days,No,Yes,Maybe,Maybe,Maybe,High,Yes,Maybe,No
+20-25,Male,Others,Go out Every day,No,Maybe,Yes,Yes,No,High,No,Maybe,Maybe
+20-25,Male,Business,Go out Every day,Yes,No,No,No,Maybe,High,Yes,No,No
+25-30,Female,Student,31-60 days,No,Maybe,Yes,No,No,Medium,Yes,Maybe,Maybe
+16-20,Female,Housewife,Go out Every day,No,Maybe,Maybe,No,No,Medium,No,Maybe,Maybe
+16-20,Female,Housewife,15-30 days,Maybe,No,No,Maybe,No,Medium,Yes,No,Yes
+16-20,Male,Corporate,Go out Every day,Yes,No,Yes,Maybe,Maybe,High,Yes,Yes,Maybe
+16-20,Male,Corporate,31-60 days,Yes,Yes,Maybe,No,Maybe,High,No,No,Maybe
+16-20,Female,Corporate,Go out Every day,No,No,No,Maybe,Yes,Medium,No,Maybe,No
+30-Above,Female,Student,More than 2 months,Yes,Maybe,Yes,No,No,Medium,No,Maybe,Maybe
+16-20,Female,Student,31-60 days,Yes,Maybe,Maybe,Yes,No,Low,No,No,Maybe
+16-20,Male,Student,15-30 days,Maybe,Maybe,Yes,Yes,Yes,Medium,Yes,No,Yes
+16-20,Male,Student,More than 2 months,Maybe,Yes,Yes,Yes,No,Low,No,No,Yes
+30-Above,Male,Business,1-14 days,No,Yes,Yes,No,Yes,Low,Yes,No,Yes
+20-25,Female,Business,31-60 days,No,Yes,Maybe,Maybe,No,Medium,Yes,No,Yes
+20-25,Female,Student,31-60 days,Maybe,Maybe,Yes,Maybe,Yes,Low,Yes,Maybe,No
+20-25,Male,Student,More than 2 months,No,Yes,Maybe,Maybe,Maybe,High,Yes,Maybe,Yes
+16-20,Male,Corporate,15-30 days,Yes,Maybe,Maybe,Yes,No,Medium,No,Maybe,Maybe
+20-25,Female,Corporate,31-60 days,Yes,Maybe,No,Maybe,Yes,Medium,Yes,Yes,Yes
+20-25,Male,Business,15-30 days,No,Maybe,No,Yes,Yes,Medium,No,Maybe,Yes
+30-Above,Female,Others,More than 2 months,No,No,Yes,Yes,Maybe,High,Yes,No,Yes
+16-20,Male,Housewife,Go out Every day,No,Maybe,Yes,No,No,Low,Yes,No,Yes
+20-25,Female,Student,Go out Every day,Maybe,Maybe,No,Maybe,Yes,Medium,Yes,No,No
+25-30,Male,Student,Go out Every day,Yes,Maybe,No,No,No,High,No,No,No
+20-25,Male,Student,Go out Every day,Maybe,Maybe,No,Yes,Maybe,High,No,No,Yes
+30-Above,Male,Housewife,More than 2 months,Maybe,No,Maybe,No,Yes,High,No,Maybe,Maybe
+16-20,Female,Others,15-30 days,Yes,Yes,No,Maybe,No,Low,No,No,Yes
+25-30,Male,Student,1-14 days,No,Maybe,Maybe,Yes,Yes,High,Yes,Maybe,No
+20-25,Male,Student,1-14 days,No,No,Maybe,No,Yes,High,No,Maybe,Yes
+20-25,Female,Student,Go out Every day,Yes,Yes,Yes,Maybe,Maybe,Low,Yes,Yes,Yes
+16-20,Female,Business,Go out Every day,Yes,Yes,No,No,Yes,Medium,Yes,Maybe,Maybe
+16-20,Male,Student,15-30 days,Yes,No,Yes,Maybe,Maybe,Medium,Yes,Maybe,No
+16-20,Female,Housewife,Go out Every day,No,Yes,No,No,No,Medium,No,No,Maybe
+16-20,Male,Corporate,1-14 days,Maybe,Yes,Maybe,No,Yes,High,No,No,No
+25-30,Male,Housewife,More than 2 months,No,Maybe,No,Maybe,Maybe,High,Yes,No,Maybe
+20-25,Male,Others,31-60 days,Maybe,Yes,Yes,No,Yes,Low,No,Maybe,Maybe
+20-25,Female,Housewife,Go out Every day,Maybe,Yes,Maybe,Yes,Maybe,Low,Yes,Yes,Maybe
+30-Above,Male,Corporate,More than 2 months,Maybe,No,Yes,No,No,Low,No,Yes,Maybe
+25-30,Male,Student,1-14 days,Maybe,No,Yes,No,No,Low,No,Maybe,Maybe
+16-20,Female,Student,15-30 days,Maybe,Yes,Maybe,No,Yes,High,No,Yes,No
+16-20,Male,Housewife,15-30 days,Maybe,Yes,Maybe,Maybe,Maybe,Low,No,No,Maybe
+30-Above,Male,Housewife,31-60 days,Yes,Yes,No,Yes,Maybe,Medium,No,Yes,Maybe
+25-30,Female,Student,15-30 days,No,Maybe,Yes,Yes,Maybe,Medium,Yes,Yes,Maybe
+25-30,Male,Housewife,More than 2 months,No,No,Maybe,Maybe,Maybe,Medium,No,Yes,No
+20-25,Male,Business,More than 2 months,Maybe,No,Yes,Maybe,Maybe,Medium,No,No,No
+25-30,Male,Housewife,Go out Every day,No,Maybe,Maybe,No,Yes,High,No,Yes,Maybe
+30-Above,Male,Housewife,31-60 days,Maybe,Yes,Yes,No,Maybe,High,No,No,Maybe
+16-20,Female,Others,Go out Every day,Maybe,No,Yes,Yes,No,High,Yes,Yes,No
+30-Above,Female,Student,More than 2 months,Maybe,Maybe,Maybe,No,No,Medium,Yes,No,No
+16-20,Male,Others,31-60 days,No,Maybe,No,No,Yes,Low,Yes,Maybe,Maybe
+20-25,Male,Business,31-60 days,No,Maybe,No,Maybe,Yes,High,Yes,No,No
+20-25,Male,Student,31-60 days,Yes,Maybe,Maybe,Maybe,Maybe,Low,No,Yes,Yes
+25-30,Male,Business,More than 2 months,Yes,Yes,Yes,Maybe,No,Medium,No,No,Maybe
+16-20,Female,Student,1-14 days,No,Yes,Yes,No,No,Low,Yes,Maybe,Maybe
+25-30,Female,Student,15-30 days,No,Yes,Maybe,Yes,No,Medium,Yes,Maybe,No
+30-Above,Female,Housewife,Go out Every day,Yes,Maybe,No,No,No,Low,No,No,Yes
+25-30,Male,Student,Go out Every day,Maybe,Yes,Maybe,No,Maybe,High,Yes,Maybe,No
+20-25,Male,Others,Go out Every day,Yes,No,Yes,No,Maybe,Medium,Yes,No,Maybe
+30-Above,Female,Housewife,1-14 days,Yes,Yes,No,Yes,Maybe,High,No,Yes,Yes
+30-Above,Male,Corporate,15-30 days,No,Maybe,No,Maybe,Yes,Medium,No,Maybe,No
