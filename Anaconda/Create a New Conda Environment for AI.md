@@ -14,9 +14,8 @@ conda activate AI
 conda install pandas
 conda install console_shortcut
 conda install -c conda-forge jupyterlab
-conda install anaconda
-pip install requests
 conda install scikit-learn
+conda install matplotlib
 ```
 
 ## Create the kernel for VS Code/Jupyter
