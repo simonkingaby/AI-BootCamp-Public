@@ -6,12 +6,6 @@
 conda info -e
 ```
 
-## To Remove a Corrupted Environment
-
-``` Bash
-conda env remove -n ENV_NAME
-```
-
 ## Initial Setup for a new AI environment
 
 ``` Bash
@@ -57,6 +51,12 @@ Run this from time-to-time to update pip
 
 ``` Bash
 python.exe -m pip install --upgrade pip
+```
+
+## To Remove a Corrupted Environment
+
+``` Bash
+conda env remove -n ENV_NAME
 ```
 
 ### To Launch Jupyter Lab
