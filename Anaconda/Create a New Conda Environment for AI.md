@@ -43,7 +43,6 @@ Run this from time-to-time to update Anaconda
 
 ``` Bash
 conda update -n base -c defaults conda
-conda update -n base -c defaults anaconda
 ```
 
 Run this from time-to-time to update pip
