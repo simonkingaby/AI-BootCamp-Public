@@ -5,16 +5,16 @@ from sklearn.pipeline import Pipeline
 from sklearn.linear_model import LinearRegression
 import pandas as pd
 
-def preprocess(df, ycol):
+def preprocess(df, target):
     """
     Written for pollution data; will drop null values and
-    split into training and testing sets. Uses ycol
+    split into training and testing sets. Uses target
     as the target column.
     """
 
     df.dropna(inplace=True)
-    X = pd.get_dummies(df.drop(columns=ycol))
-    y = df[ycol].values.reshape(-1, 1)
+    X = pd.get_dummies(df.drop(columns=target))
+    y = df[target].values.reshape(-1, 1)
     return train_test_split(X, y)
 
 def r2_adj(x, y, model):
