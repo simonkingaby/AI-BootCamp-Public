@@ -5,16 +5,16 @@ from sklearn.pipeline import Pipeline
 from sklearn.linear_model import LinearRegression
 import pandas as pd
 
-def preprocess(df):
+def preprocess(df, ycol):
     """
     Written for pollution data; will drop null values and
-    split into training and testing sets. Uses pm2.5
+    split into training and testing sets. Uses ycol
     as the target column.
     """
 
     df.dropna(inplace=True)
-    X = pd.get_dummies(df.drop(columns='pm2.5'))
-    y = df['pm2.5'].values.reshape(-1, 1)
+    X = pd.get_dummies(df.drop(columns=ycol))
+    y = df[ycol].values.reshape(-1, 1)
     return train_test_split(X, y)
 
 def r2_adj(x, y, model):
@@ -27,10 +27,10 @@ def r2_adj(x, y, model):
     p = y.shape[1]
     return 1 - (1 - r2) * (n - 1) / (n - p - 1)
 
-def process(df):
+def process(df, target):
     """
     Defines a series of steps that will preprocess data,
-    split data, and train a model for predicting pm2.5
+    split data, and train a model for predicting target
     using linear regression. It will return the trained model
     and print the mean squared error, r-squared, and adjusted
     r-squared scores.
@@ -39,7 +39,7 @@ def process(df):
     steps = [("Scale", StandardScaler(with_mean=False)), 
              ("Linear Regression", LinearRegression())]
     pipeline = Pipeline(steps)
-    X_train, X_test, y_train, y_test = preprocess(df)
+    X_train, X_test, y_train, y_test = preprocess(df, target)
     pipeline.fit(X_train, y_train)
     y_pred = pipeline.predict(X_test)
     mse = mean_squared_error(y_test, y_pred)
