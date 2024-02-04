@@ -6,17 +6,20 @@
 conda info -e
 ```
 
-## Initial Setup for a new AI environment
+## Initial Setup for a new Llama 2 environment
 
 ``` Bash
-conda create --name AI python=3.11
-conda activate AI
+conda create --name llama2 python=3.12
+conda activate llama2
 conda install pandas
 conda install console_shortcut
 conda install -c conda-forge jupyterlab
-conda install scikit-learn
 conda install matplotlib
+pip install streamlit
+conda install langchain
+conda install replicate
 pip install python-dotenv
+pip install -U langchain-community
 ```
 
 ## Create the kernel for VS Code/Jupyter
@@ -24,7 +27,7 @@ pip install python-dotenv
 ``` Bash
 python -m ipykernel install --user --name <other-env> --display-name "Python (<other-env>)"
 For example,
-python -m ipykernel install --user --name AI --display-name "Python (AI)"
+python -m ipykernel install --user --name llama2 --display-name "Python (Llama2)"
 ```
 ### To remove a Kernel from Jupyter, simply run the following code:
 
@@ -60,7 +63,7 @@ conda env remove -n ENV_NAME
 
 ### To Launch Jupyter Lab
 
-PC:  From the Anaconda Prompt (AI):
+PC:  From the Anaconda Prompt (Llama2):
 
 ``` Bash
 jupyter lab
@@ -69,6 +72,6 @@ jupyter lab
 Mac:  From the Terminal:
 
 ``` Bash
-conda activate AI
+conda activate llama2
 jupyter lab
 ```
