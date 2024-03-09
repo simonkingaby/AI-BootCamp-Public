@@ -1,8 +1,7 @@
 """
  This code sample demonstrates an implementation of the Lex Code Hook Interface
- in order to serve a bot which manages dentist appointments.
- Bot, Intent, and Slot models which are compatible with this sample can be found in the Lex Console
- as part of the 'MakeAppointment' template.
+ in order to serve a bot.
+ Bot, Intent, and Slot models which are compatible with this sample can be found in the Lex Console as part of the 'MakeAppointment' template.
 
  For instructions on how to set up and test this bot, as well as additional samples,
  visit the Lex Getting Started documentation http://docs.aws.amazon.com/lex/latest/dg/getting-started.html.
@@ -132,9 +131,9 @@ def get_slot_value(slots, slot_name, default_value):
 """ --- Functions that control the bot's behavior --- """
 
 
-def roll_dice(intent_request):
+def predict_diabetes(intent_request):
     """
-    Performs dialog management and fulfillment for rolling the dice
+    Performs dialog management and fulfillment for predicting diabetes
 
     Beyond fulfillment, the implementation for this intent demonstrates the following:
     1) Use of elicitSlot in slot validation and re-prompting
@@ -153,27 +152,14 @@ def roll_dice(intent_request):
     logging.debug(f'Slots: {slots}')
     
     # Parse the slot values
-    no_of_dice = parse_int(get_slot_value(slots, "NumberOfDice", 1))
-    number_of_sides = get_slot_value(slots, "NumberOfSides", 'six')
-    plus_minus = get_slot_value(slots, "PlusOrMinus", 'plus')
-    modifier = parse_int(get_slot_value(slots, "Modifier", 0))
-    
-    side_options = {'two':2,'three':3,'four':4,'six':6,'eight':8,'ten':10,'twelve':12,'twenty':20, 'one-hundred':100}
-    no_of_sides = side_options[number_of_sides]
-    
-    
-    # Roll the Dice.  In a real bot, this would likely involve a call to a backend service.
-    sum_rolls = 0
-    rolls = []
-    for n in range(no_of_dice):
-        roll = random.randrange(no_of_sides)+1
-        sum_rolls += roll
-        rolls.append(roll)
-    if plus_minus == 'plus':
-        sum_rolls += modifier
-    else:
-        sum_rolls -= modifier
+    # e.g.
+    age = parse_int(get_slot_value(slots, "age", 0))
 
+    # Do interesting things here
+    
+    do_or_do_not = 'do not'
+    
+    # Return the response
     intent['state'] = 'Fulfilled'
     return {
         'sessionState': {
@@ -186,7 +172,7 @@ def roll_dice(intent_request):
         'messages': [
             {
                 'contentType': 'PlainText',
-                'content': f'I rolled {rolls}. For a total of: {sum_rolls}.'
+                'content': f'As a {age} year-old. It is quite likely that you {do_or_do_not} have diabetes.'
             }
         ]
     }
@@ -206,8 +192,8 @@ def dispatch(intent_request):
     intent_name = intent_request['sessionState']['intent']['name']
     
     # Dispatch to your bot's intent handlers
-    if intent_name == 'RollDice':
-        return roll_dice(intent_request)
+    if intent_name == 'PredictDiabetes':
+        return predict_diabetes(intent_request)
     raise Exception('Intent with name ' + intent_name + ' not supported')
 
 
