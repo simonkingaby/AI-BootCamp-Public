@@ -1,0 +1,209 @@
+{
+    "sessionId": "213466721567631",
+    "inputTranscript": "23",
+    "interpretations": [
+        {
+            "nluConfidence": 1,
+            "intent": {
+                "name": "PredictDiabetes",
+                "slots": {
+                    "gender": {
+                        "shape": "Scalar",
+                        "value": {
+                            "originalValue": "Male",
+                            "resolvedValues": [
+                                "male"
+                            ],
+                            "interpretedValue": "male"
+                        }
+                    },
+                    "current_smoker": {
+                        "shape": "Scalar",
+                        "value": {
+                            "originalValue": "No",
+                            "resolvedValues": [
+                                "No"
+                            ],
+                            "interpretedValue": "No"
+                        }
+                    },
+                    "heart_disease": {
+                        "shape": "Scalar",
+                        "value": {
+                            "originalValue": "No",
+                            "resolvedValues": [
+                                "No"
+                            ],
+                            "interpretedValue": "No"
+                        }
+                    },
+                    "hypertension": {
+                        "shape": "Scalar",
+                        "value": {
+                            "originalValue": "No",
+                            "resolvedValues": [
+                                "No"
+                            ],
+                            "interpretedValue": "No"
+                        }
+                    },
+                    "former_smoker": {
+                        "shape": "Scalar",
+                        "value": {
+                            "originalValue": "No",
+                            "resolvedValues": [
+                                "No"
+                            ],
+                            "interpretedValue": "No"
+                        }
+                    },
+                    "age": {
+                        "shape": "Scalar",
+                        "value": {
+                            "originalValue": "35",
+                            "resolvedValues": [
+                                "35"
+                            ],
+                            "interpretedValue": "35"
+                        }
+                    },
+                    "bmi": {
+                        "shape": "Scalar",
+                        "value": {
+                            "originalValue": "23",
+                            "resolvedValues": [
+                                "23"
+                            ],
+                            "interpretedValue": "23"
+                        }
+                    }
+                },
+                "state": "ReadyForFulfillment",
+                "confirmationState": "None"
+            },
+            "interpretationSource": "Lex"
+        },
+        {
+            "intent": {
+                "name": "FallbackIntent",
+                "slots": {},
+                "state": "ReadyForFulfillment",
+                "confirmationState": "None"
+            },
+            "interpretationSource": "Lex"
+        }
+    ],
+    "bot": {
+        "name": "DiabetesBot",
+        "version": "DRAFT",
+        "localeId": "en_US",
+        "id": "VS6CHHTSCD",
+        "aliasId": "TSTALIASID",
+        "aliasName": "TestBotAlias"
+    },
+    "responseContentType": "text/plain; charset=utf-8",
+    "sessionState": {
+        "sessionAttributes": {},
+        "intent": {
+            "name": "PredictDiabetes",
+            "slots": {
+                "gender": {
+                    "shape": "Scalar",
+                    "value": {
+                        "originalValue": "Male",
+                        "resolvedValues": [
+                            "male"
+                        ],
+                        "interpretedValue": "male"
+                    }
+                },
+                "current_smoker": {
+                    "shape": "Scalar",
+                    "value": {
+                        "originalValue": "No",
+                        "resolvedValues": [
+                            "No"
+                        ],
+                        "interpretedValue": "No"
+                    }
+                },
+                "heart_disease": {
+                    "shape": "Scalar",
+                    "value": {
+                        "originalValue": "No",
+                        "resolvedValues": [
+                            "No"
+                        ],
+                        "interpretedValue": "No"
+                    }
+                },
+                "hypertension": {
+                    "shape": "Scalar",
+                    "value": {
+                        "originalValue": "No",
+                        "resolvedValues": [
+                            "No"
+                        ],
+                        "interpretedValue": "No"
+                    }
+                },
+                "former_smoker": {
+                    "shape": "Scalar",
+                    "value": {
+                        "originalValue": "No",
+                        "resolvedValues": [
+                            "No"
+                        ],
+                        "interpretedValue": "No"
+                    }
+                },
+                "age": {
+                    "shape": "Scalar",
+                    "value": {
+                        "originalValue": "35",
+                        "resolvedValues": [
+                            "35"
+                        ],
+                        "interpretedValue": "35"
+                    }
+                },
+                "bmi": {
+                    "shape": "Scalar",
+                    "value": {
+                        "originalValue": "23",
+                        "resolvedValues": [
+                            "23"
+                        ],
+                        "interpretedValue": "23"
+                    }
+                }
+            },
+            "state": "ReadyForFulfillment",
+            "confirmationState": "None"
+        },
+        "originatingRequestId": "09b44933-f44a-486b-9276-c76ab7473ddd"
+    },
+    "messageVersion": "1.0",
+    "invocationSource": "FulfillmentCodeHook",
+    "transcriptions": [
+        {
+            "resolvedContext": {
+                "intent": "PredictDiabetes"
+            },
+            "transcriptionConfidence": 1,
+            "transcription": "23",
+            "resolvedSlots": {
+                "bmi": {
+                    "shape": "Scalar",
+                    "value": {
+                        "originalValue": "23",
+                        "resolvedValues": [
+                            "23"
+                        ]
+                    }
+                }
+            }
+        }
+    ],
+    "inputMode": "Text"
+}
