@@ -1,14 +1,19 @@
-import pandas as pd
-import numpy as np
-from sklearn.model_selection import train_test_split
-import json
-import dateutil.parser
-import datetime
+"""
+ This code sample demonstrates an implementation of the Lex Code Hook Interface
+ in order to serve a bot.
+ Bot, Intent, and Slot models which are compatible with this sample can be found in the Lex Console as part of the 'MakeAppointment' template.
+
+ For instructions on how to set up and test this bot, as well as additional samples,
+ visit the Lex Getting Started documentation http://docs.aws.amazon.com/lex/latest/dg/getting-started.html.
+"""
+
 import time
 import os
-import math
-import random
 import logging
+import pandas as pd
+import joblib
+from sklearn.preprocessing import OneHotEncoder, StandardScaler
+from sklearn.ensemble import RandomForestClassifier
 
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
@@ -125,48 +130,79 @@ def get_slot_value(slots, slot_name, default_value):
 """ --- Functions that control the bot's behavior --- """
 
 
-def roll_dice(intent_request):
+def predict_diabetes(intent_request):
     """
-    Performs dialog management and fulfillment for rolling the dice
+    Performs dialog management and fulfillment for predicting diabetes
 
     Beyond fulfillment, the implementation for this intent demonstrates the following:
     1) Use of elicitSlot in slot validation and re-prompting
     2) Use of confirmIntent to support the confirmation of inferred slot values, when confirmation is required
     on the bot model and the inferred slot values fully specify the intent.
     """
-
+    
     # Log the entire intent request
     logging.debug(f"Intent:\n{intent_request}")
-
+    
     session = intent_request['sessionState']
     intent = session['intent']
     slots = intent['slots']
-
+    
     # Log the slot values
     logging.debug(f'Slots: {slots}')
-
+    
     # Parse the slot values
-    no_of_dice = parse_int(get_slot_value(slots, "NumberOfDice", 1))
-    number_of_sides = get_slot_value(slots, "NumberOfSides", 'six')
-    plus_minus = get_slot_value(slots, "PlusOrMinus", 'plus')
-    modifier = parse_int(get_slot_value(slots, "Modifier", 0))
+    # e.g.
+    age = parse_int(get_slot_value(slots, "age", 0))
+    current_smoker = (get_slot_value(slots, "current_smoker", ""))
+    former_smoker = (get_slot_value(slots, "former_smoker", ""))
+    gender = (get_slot_value(slots, "gender", ""))
+    heart_disease = (get_slot_value(slots, "heart_disease", ""))
+    hypertension = (get_slot_value(slots, "hypertension", ""))
+    bmi = float(get_slot_value(slots, "bmi", 0))
 
-    side_options = {'two':2,'three':3,'four':4,'six':6,'eight':8,'ten':10,'twelve':12,'twenty':20, 'one-hundred':100}
-    no_of_sides = side_options[number_of_sides]
-
-
-    # Roll the Dice.  In a real bot, this would likely involve a call to a backend service.
-    sum_rolls = 0
-    rolls = []
-    for n in range(no_of_dice):
-        roll = random.randrange(no_of_sides)+1
-        sum_rolls += roll
-        rolls.append(roll)
-    if plus_minus == 'plus':
-        sum_rolls += modifier
+    if current_smoker == 'Yes':
+        smoking_history = 'current'
+    elif former_smoker == 'Yes':
+        smoking_history = 'former'
+    else:   
+        smoking_history = 'never'
+    if heart_disease == 'Yes':
+        heart_disease = 1
     else:
-        sum_rolls -= modifier
+        heart_disease = 0
+    if hypertension == 'Yes':
+        hypertension = 1
+    else:
+        hypertension = 0
 
+    # make a DataFrame out of the gathered slots
+    X = pd.DataFrame({"gender": [gender], 
+                      "age": [age], 
+                      "hypertension": [hypertension],
+                      "heart_disease": [heart_disease],
+                      "smoking_history": [smoking_history],
+                      "bmi": [bmi]}, index=[0])
+    
+    # Now load the OHE
+    encoder = joblib.load("encoder.pkl")
+    # and encode the data
+    X = encoder.transform(X)
+
+    # Now load the scaler
+    scaler = joblib.load('scaler.pkl')
+    # and scale the data
+    X = scaler.transform(X)
+
+    # Now load the model
+    model = joblib.load('model.pkl')
+    # and predict
+    y_pred = model.predict(X)
+    if y_pred[0] == 1:
+        do_or_do_not = 'do'
+    else:
+        do_or_do_not = 'do not'
+    
+    # Return the response
     intent['state'] = 'Fulfilled'
     return {
         'sessionState': {
@@ -179,11 +215,11 @@ def roll_dice(intent_request):
         'messages': [
             {
                 'contentType': 'PlainText',
-                'content': f'Ok. Here\'s what I rolled: {rolls}. For a total of: {sum_rolls}. Is there anything else I can help with?'
+                'content': f'As a {age} year-old {gender} with the indicators you gave, it is likely that you {do_or_do_not} have diabetes.'
             }
         ]
     }
-
+    
 
 """ --- Intents --- """
 
@@ -193,14 +229,14 @@ def dispatch(intent_request):
     """
 
     # logger.debug('dispatch intentName={}'.format(intent_request['currentIntent']['name']))
-
+    
     logger.debug(f'Intent Request {intent_request}')
-
+    
     intent_name = intent_request['sessionState']['intent']['name']
-
+    
     # Dispatch to your bot's intent handlers
-    if intent_name == 'RollDice':
-        return roll_dice(intent_request)
+    if intent_name == 'PredictDiabetes':
+        return predict_diabetes(intent_request)
     raise Exception('Intent with name ' + intent_name + ' not supported')
 
 
