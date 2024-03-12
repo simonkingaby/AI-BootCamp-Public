@@ -184,17 +184,17 @@ def predict_diabetes(intent_request):
                       "bmi": [bmi]}, index=[0])
     
     # Now load the OHE
-    encoder = joblib.load("encoder.pkl")
+    encoder = joblib.load("/var/task/encoder.pkl")
     # and encode the data
     X = encoder.transform(X)
 
     # Now load the scaler
-    scaler = joblib.load('scaler.pkl')
+    scaler = joblib.load('/var/task/scaler.pkl')
     # and scale the data
     X = scaler.transform(X)
 
     # Now load the model
-    model = joblib.load('model.pkl')
+    model = joblib.load('/var/task/model.pkl')
     # and predict
     y_pred = model.predict(X)
     if y_pred[0] == 1:
