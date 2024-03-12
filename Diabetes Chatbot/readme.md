@@ -402,7 +402,7 @@ Bugs fixed so far:
 * Mismatched versions of Scikit-learn in the pickle process.
 * Ran out of memory loading the pickle files. Increased to 1024 MB for RAM and Ephemeral storage.
 * Looks like OHE was encoding the BMI column too. Oops.
-
+* **ALL BUGS RESOLVED!!!! WOOHOO!!!**
 
 ![alt text](images/1566609425888.jpeg)
 
