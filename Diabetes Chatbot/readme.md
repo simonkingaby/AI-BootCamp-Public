@@ -407,3 +407,20 @@ Bugs fixed so far:
 ![alt text](images/1566609425888.jpeg)
 
 With apologies to Matt Groening.
+
+
+## Next Steps
+
+Now that the bot works in Test mode, I need to deploy it to a hosted web site. 
+That part is basically following the instructions in this repo:
+
+[https://github.com/aws-samples/aws-lex-web-ui/tree/master](https://github.com/aws-samples/aws-lex-web-ui/tree/master)
+
+Scroll down to the Launch Stack buttons, launch the stack in your chosen region. Fill in the form. Click Create Stack.
+
+There's a few minor cleanup steps after the stack is built, but that's basically it. I'll document these soon.
+
+
+
+
+
