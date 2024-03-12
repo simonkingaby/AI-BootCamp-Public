@@ -55,10 +55,10 @@ Next, we need to create a Lex bot that can ask for those variables.
 If you haven't done so, create an AWS Skill Builder account and take the [Amazon Lex Getting Started (1 hr) class](https://explore.skillbuilder.aws/learn/course/external/view/elearning/17999/amazon-lex-getting-started). This will introduce you to the Lex concepts.
 Our bot will be quite simple, with a single Intent, several Slot Types, and a Fulfillment algorithm in Lambda.
 
-==If you would like to skip ahead to the coding section, you can download the [JSON.zip file here](https://github.com/simonkingaby/AI-BootCamp-Public/blob/main/Diabetes%20Chatbot/DiabetesBot-LexJson.zip).
-Then, in the Lex console, click on Action, Import, give your bot a name, such as DiabetesBot, select the JSON.zip file, under IAM permissions, select Create a role with basic Amazon Lex permissions, select No in the COPPA section, and click Import. Then skip ahead to Part 3: Creating the Lambda function.==
+==**If you would like to skip ahead to the coding section, you can download the [JSON.zip file here](https://github.com/simonkingaby/AI-BootCamp-Public/blob/main/Diabetes%20Chatbot/DiabetesBot-LexJson.zip). Then, in the Lex console, click on Action, Import, give your bot a name, such as DiabetesBot, select the JSON.zip file, under IAM permissions, select Create a role with basic Amazon Lex permissions, select No in the COPPA section, and click Import. Then skip ahead to Part 3: Creating the Lambda function.**==
 
 When you're ready, follow this procedure to create a blank Lex bot:
+
 1. In the AWS Console, in Amazon Lex, click the Create bot button.
 2. Select to Create a blank bot.
 3. Give the bot a name, such as DiabetesBot.
@@ -69,17 +69,22 @@ When you're ready, follow this procedure to create a blank Lex bot:
 8. Then click Done to create the bot.
 ### Setting up the slot values
 Now, set up the Slots, these are the values we will collect with the bot.
+
 9. In the left navigation panel, click < Back to intents list.
 10. Then click on Slot types.
 11. Click Add slot type, then select Add blank slot type.
 12. Enter gender for the Slot type name, and click Add.
 13. Toggle the Slot value resolution over to Restrict to slot values.
 14. Then enter the following Slot type values (case matters):
+
 	a) Female
 	b) Male
+
 15. To the right of each option, enter any synonyms, such as woman and man.
 16. When you're done, it should look like this:
-	  ![[images/Pasted image 20240311124217.png]]
+
+![Slot Types](<images/Pasted image 20240311124217.png>)
+
 17. Click Save Slot type.
 18. You might think we'd use a slot type for Smoking History, but we'll use a pair of Yes/No questions instead to simplify the bot interactions.
 19. Next we'll set up the intent.
@@ -103,7 +108,7 @@ Now, set up the Slots, these are the values we will collect with the bot.
 | heart_disease  | AMAZON.Confirmation | Do you have a history of heart disease? |
 | bmi            | AMAZON.Number       | What's your B.M.I.?                     |
 
-![[images/Pasted image 20240308155835.png]]
+![Slots](<images/Pasted image 20240308155835.png>)
 
 28. Now, that you've entered the slots, go back up to the utterances. Add the following utterance:
       "As a 30 year-old woman with a B.M.I. of 32, do I probably have diabetes?"
@@ -111,7 +116,8 @@ Now, set up the Slots, these are the values we will collect with the bot.
 30. Now select the word woman and in the Use available slot prompt select gender.
 31. Now select the number 32, and in the Use available slot prompt select bmi. Be sure to leave a space after the {bmi} slot (before the comma), as slots have to be separated from the rest by whitespace.
 32. The utterance should now look like this (colors may vary):
-    ![[images/Pasted image 20240308182217.png]]
+
+![Utterance](<images/Pasted image 20240308182217.png>)
 
 33. Save the intent by clicking the Save intent button at the bottom of the screen.
 34. Now click Build and wait for it to complete.
@@ -130,6 +136,7 @@ The backend of a Lex bot is implemented in a Lambda function. We're going to cre
 ### Creating the Dev Lambda function
 Start, by navigating to the Lambda console in AWS. Then click on Create function.
 In the Create function dialog:
+
 1. Select Author from scratch.
 2. Enter a Function name, such as DiabetesLambda.
 3. Select the latest Python runtime (3.12).
@@ -141,6 +148,7 @@ In the Create function dialog:
 9. That's it, you're ready to connect the function to the bot.
 ### Connecting the Lex bot to the Lambda function
 To connect the two, switch back to the Lex bot in the console. Then follow these steps:
+
 10. Expand Deployment in the left navigation panel. 
 11. Select Aliases.
 12. Select the TestBotAlias.
@@ -157,8 +165,11 @@ To connect the two, switch back to the Lex bot in the console. Then follow these
 23. Regardless of what you enter, at the end it should say, "As a {age} year-old. It is quite likely that you do not have diabetes." This is the hard coded message we will change in the next section.
 ### Finishing the Lambda function
 At this point, we have a Lex bot set up and wired up to a Lambda function. Now we need to get the slot values out of the JSON payload.
+
 Switch over to the Lambda console.
+
 First, we're going to set up a test function so we don't have to toggle back to the Lex bot to test. Follow these steps:
+
 1. Scroll down and select the Test tab.
 2. Select to Create a new event.
 3. Give the event a name, say "LexTestPayload".
@@ -262,23 +273,32 @@ Finally, change the message content as follows:
 ```
 
 Now click Deploy to save and deploy your changes. 
+
 Then click Test to try it out.
+
 You'll see a problem... Pandas is not in the default Lambda build. We will need to add it. 
 However, that won't be the only module we need to add. We could add Pandas as a layer in the Lambda function, but we're also missing Scikit-learn, which is too big to fit in a layer.
+
 This necessitates a significant change in direction, as we now have to move the Lambda function code into a Docker container. This is not difficult, but it is an entirely different approach.
 It starts by installing Docker Desktop.
 ## Part 4: Setting up the Docker container
 First, install Docker Desktop from here: [Overview of Docker Desktop | Docker Docs](https://docs.docker.com/desktop/). Scroll down and pick the Docker Desktop install for your PC. Follow the steps. If you're on Windows, you will need to enable some BIOS features and Windows features to get Docker Desktop to work. On my machine, the BIOS feature to enable hardware virtualization was a bit of a hunt, but I eventually found it and enabled it. 
+
 Once you've installed Docker Desktop and restarted your machine, you can create your Docker container files.
+
 In VS Code, create a new folder, for example: DiabetesDockerContainer.
+
 In that folder, create three files:
 * [app.py](https://github.com/simonkingaby/AI-BootCamp-Public/blob/main/Diabetes%20Chatbot/docker/app.py)
 * [Dockerfile](https://github.com/simonkingaby/AI-BootCamp-Public/blob/main/Diabetes%20Chatbot/docker/Dockerfile)
 * [requirements.txt](https://github.com/simonkingaby/AI-BootCamp-Public/blob/main/Diabetes%20Chatbot/docker/requirements.txt)
+
 Copy the contents of the files from GitHub at the links above.
+
 Then, into the same folder, copy the three .pkl files you created in the modeling step in Part 1.
 
 Now, within VS Code, right-click on the docker folder (DiabetesDockerContainer) and choose Open in Integrated Terminal. 
+
 Then, from the command line, execute the following commands:
 
 ```bash
@@ -293,7 +313,7 @@ While that's building, in the AWS console, go to IAM. Create a new user called e
 * EC2InstanceProfileForImageBuilderECRContainerBuilds
 * SecretsManagerReadWrite
 
-After creating the user, go to the Credentials tab, scroll down to Access keys and give it one. Ignore the warning. .
+After creating the user, go to the Credentials tab, scroll down to Access keys and give it one. Ignore the warning.
 
 With the keys in hand, go back to the VS Code integrated terminal and execute the following command. 
 
@@ -308,7 +328,7 @@ Once that's done and you're back at the command line, execute the next command.
 aws ecr create-repository --repository-name diabetes-repo --image-scanning-configuration scanOnPush=true --image-tag-mutability MUTABLE
 ```
 
-Next, tag the docker image with the repo (replace the account number with yours):
+Next, tag the docker image with the repo name (replace the account number with yours):
 
 ```bash
 docker tag diabetesdockercontainer:latest 123456789012.dkr.ecr.us-east-1.amazonaws.com/diabetes-repo:latest
@@ -332,25 +352,43 @@ If you see that the image has been pushed, then celebrate, and move on to the la
 Open the AWS Console, and go to Lambda functions.
 
 Click the Create function button.
+
 Select the Container image radio button.
+
 Give the function a name, such as diabetes-lex-lambda-container.
+
 Browse for the container image we just uploaded.
+
 Click Create function at the bottom.
 
 Once the function is created, go back to Lex in the console.
+
 Open the DiabetesBot.
+
 Go to Aliases.
+
 Select TestBotAlias.
+
 Select the language English.
+
 Change the source to diabetes-lex-lambda-container.
+
 Click Save.
+
 Go to Intents.
+
 Click Build.
+
 When ready, click Test.
+
 Say Hi and answer the questions.
+
 It might take a few seconds to spin up the docker container the first time.
+
 If it makes a prediction, about diabetes, you win! 
+
 The process is complete and you can rest on your laurels.
+
 Woohoo!
 
 If not, you have a bug to find and fix. Good luck.
@@ -365,4 +403,6 @@ docker push 123456789012.dkr.ecr.us-east-1.amazonaws.com/diabetes-repo:latest
 ```
 
 Then, in Lambda, edit the function and "Deploy new image" to select the latest image from the container.
-Then, in Lex, Test again. Then go back to Cloudwatch. Then make adjustments and redeploy the container and update the Lambda function. Then try again.
+
+Then, in Lex, Test again. Then go back to Cloudwatch. Then make adjustments and redeploy the container and update the Lambda function. Then try again. Rinse. Repeat.
+
