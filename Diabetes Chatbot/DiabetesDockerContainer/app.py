@@ -11,7 +11,7 @@ import time
 import os
 import logging
 import pandas as pd
-import joblib
+import pickle
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.ensemble import RandomForestClassifier
 
@@ -182,21 +182,44 @@ def predict_diabetes(intent_request):
                       "heart_disease": [heart_disease],
                       "smoking_history": [smoking_history],
                       "bmi": [bmi]}, index=[0])
-    
-    # Now load the OHE
-    encoder = joblib.load("/var/task/encoder.pkl")
-    # and encode the data
-    X = encoder.transform(X)
+    logger.debug(f'X: {X}')
+    logger.debug(f'X.dtypes: {X.dtypes}')
 
-    # Now load the scaler
-    scaler = joblib.load('/var/task/scaler.pkl')
-    # and scale the data
-    X = scaler.transform(X)
+    try:
+        # Now load the OHE
+        with open("encoder.pkl", "rb") as f:
+            ct = pickle.load(f)
+        X_t = ct.transform(X)
+        X_e = pd.DataFrame(X_t, columns=ct.get_feature_names_out())
 
-    # Now load the model
-    model = joblib.load('/var/task/model.pkl')
-    # and predict
-    y_pred = model.predict(X)
+        # Now load the scaler
+        with open("scaler.pkl", "rb") as f:
+            scaler = pickle.load(f)
+        # and scale the data
+        X_s = scaler.transform(X_e)
+
+        # Now load the model
+        with open("diabetes_model.pkl", "rb") as f:
+            model = pickle.load(f)
+            # and predict
+            y_pred = model.predict(X_s)
+    except Exception as e:
+        logging.error(f'An error occurred while processing the request: {e}')
+        return {
+            'sessionState': {
+                'dialogAction': {
+                    'type': 'Close'
+                },
+                'intent': intent
+            },
+            'requestAttributes': {},
+            'messages': [
+                {
+                    'contentType': 'PlainText',
+                    'content': 'An error occurred while processing the request. Please try again later.'
+                }
+            ]
+        }
     if y_pred[0] == 1:
         do_or_do_not = 'do'
     else:

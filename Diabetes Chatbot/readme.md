@@ -2,51 +2,15 @@ Suppose you wanted to create a chatbot that could determine an outcome based on 
 ## Part 1: Create a Machine Learning Model
 For example, suppose you want to predict whether a person has diabetes or not. A search on Kaggle finds a few likely candidate datasets. I selected [this one](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset). Imagine you wanted to set this up in a chatbot.
 
-Here is the Python code for the Machine Learning model.
+Before you begin, drop to a command prompt for your Pythen environment and do:
 
-```python
-import pandas as pd
-from sklearn.preprocessing import OneHotEncoder, StandardScaler
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
-from sklearn.metrics import mean_squared_error, r2_score
-import joblib
-
-# Download the dataset from Kaggle and load it into Pandas
-# https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset
-df = pd.read_csv("./diabetes_prediction_dataset.csv")
-# update not current and ever to former
-df["smoking_history"] = df["smoking_history"].replace("ever", "former")
-df["smoking_history"] = df["smoking_history"].replace("not current", "former")
-# Drop the blood test features
-df = df.drop(columns=["HbA1c_level", "blood_glucose_level"])
-# Split the data into the features and the target
-y = df["diabetes"]
-X = df.drop(columns=["diabetes"])
-# Encode the categorical columns
-ohe = OneHotEncoder(sparse_output=False, drop="if_binary", dtype=int)
-X_encoded = ohe.fit_transform(X)
-# Split the data into training and testing sets
-X_train, X_test, y_train, y_test = train_test_split(X_encoded, y, test_size=0.2, random_state=42)
-# Scale the data
-scaler = StandardScaler()
-X_train_scaled = scaler.fit_transform(X_train)
-X_test_scaled = scaler.transform(X_test)
-# Train the model
-model = RandomForestClassifier(random_state=42) 
-model.fit(X_train_scaled, y_train) # This step may take 30-45 minutes to run
-# Make predictions
-y_pred = model.predict(X_test_scaled)
-# Evaluate the model
-accuracy = accuracy_score(y_test, y_pred)
-print(f"Accuracy: {accuracy:.2f}")
-print(classification_report(y_test, y_pred))
-print(confusion_matrix(y_test, y_pred))
-# Save the encoder, scaler, and model to pickle files
-joblib.dump(ohe, "encoder.pkl")
-joblib.dump(scaler, "scaler.pkl")
-joblib.dump(model, "diabetes_model.pkl")
+```bash
+pip list
 ```
+
+Open the list and make sure you know the versions of pandas, numpy, and scikit-learn, enter those version numbers in the requirements.txt file in the DiabetesDockerContainer folder. If the versions between the environment and the requirements file are different, the pickle save and pickle load will fail because they are mismatched.
+
+See the Python code for the [Machine Learning model here](https://github.com/simonkingaby/AI-BootCamp-Public/blob/main/Diabetes%20Chatbot/diabetes.ipynb).
 
 Now, we have a model that we can load into the chatbot to predict the diabetes outcome from the input variables: Gender, Age, Hypertension, Heart Disease, Smoking History, and BMI.
 
@@ -241,20 +205,42 @@ Now, make a dataframe out of the slot values
 Next, use the model components that were saved as PKL files.
 
 ```python
-    # Now load the OHE
-    encoder = joblib.load("encoder.pkl")
-    # and encode the data
-    X = encoder.transform(X)
+    try:
+        # Now load the OHE
+        with open("encoder.pkl", "rb") as f:
+            encoder = pickle.load(f)
+        # and encode the data
+        X = encoder.transform(X)
 
-    # Now load the scaler
-    scaler = joblib.load('scaler.pkl')
-    # and scale the data
-    X = scaler.transform(X)
+        # Now load the scaler
+        with open("scaler.pkl", "rb") as f:
+            scaler = pickle.load(f)
+        # and scale the data
+        X = scaler.transform(X)
 
-    # Now load the model
-    model = joblib.load('model.pkl')
-    # and predict
-    y_pred = model.predict(X)
+        # Now load the model
+        with open("diabetes_model.pkl", "rb") as f:
+            model = pickle.load(f)
+            # and predict
+            y_pred = model.predict(X)
+    except Exception as e:
+        logging.error(f'An error occurred while processing the request: {e}')
+        return {
+            'sessionState': {
+                'dialogAction': {
+                    'type': 'Close'
+                },
+                'intent': intent
+            },
+            'requestAttributes': {},
+            'messages': [
+                {
+                    'contentType': 'PlainText',
+                    'content': 'An error occurred while processing the request. Please try again later.'
+                }
+            ]
+        }
+
     if y_pred[0] == 1:
         do_or_do_not = 'do'
     else:
@@ -389,9 +375,14 @@ If it makes a prediction, about diabetes, you win!
 
 The process is complete and you can rest on your laurels.
 
-Woohoo!
+Woohoo! 
+
+![Homer Simpson says Woohoo](images/woohoo.jpg)
 
 If not, you have a bug to find and fix. Good luck.
+
+![Homer and Maggie Simpson perplexed at a computer](images/screen-shot-2012-06-03-at-1-32-50-pm.png)
+
 You'll want to look at the Cloudwatch logs for the diabetes-lex-lambda-container to see what went wrong.
 
 When you change the code you need to:
@@ -404,5 +395,15 @@ docker push 123456789012.dkr.ecr.us-east-1.amazonaws.com/diabetes-repo:latest
 
 Then, in Lambda, edit the function and "Deploy new image" to select the latest image from the container.
 
-Then, in Lex, Test again. Then go back to Cloudwatch. Then make adjustments and redeploy the container and update the Lambda function. Then try again. Rinse. Repeat.
+Then, in Lex, Test again. Then go back to Cloudwatch. Then make adjustments and redeploy the container and update the Lambda function. Then try again. Rinse. Repeat. Each time you will squash one bug, solve one problem, or something. Eventually, you will sort out the root problem and fix it too. Then you too can celebrate with a well-deserved Woohoo!
 
+Bugs fixed so far:
+* Lambda function timeout: 3 seconds. Increased to 30 seconds. Increased to 2 minutes 30 seconds.
+* Mismatched versions of Scikit-learn in the pickle process.
+* Ran out of memory loading the pickle files. Increased to 1024 MB for RAM and Ephemeral storage.
+* Looks like OHE was encoding the BMI column too. Oops.
+
+
+![alt text](images/1566609425888.jpeg)
+
+With apologies to Matt Groening.
