@@ -17,6 +17,15 @@ conda install -c conda-forge jupyterlab
 conda install scikit-learn
 conda install matplotlib
 pip install python-dotenv
+pip install nltk
+pip install transformers
+pip install sentence-transformers
+pip install tensorflow
+pip install keras-tuner
+pip install tf-keras
+pip install gradio
+pip install iprogress
+pip install jupyter --upgrade
 ```
 
 ## Create the kernel for VS Code/Jupyter
