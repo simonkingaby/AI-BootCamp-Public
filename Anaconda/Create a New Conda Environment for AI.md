@@ -26,6 +26,9 @@ pip install tf-keras
 pip install gradio
 pip install iprogress
 pip install jupyter --upgrade
+pip install openai
+pip install langchain
+pip install langchain-openai
 ```
 
 ## Create the kernel for VS Code/Jupyter
