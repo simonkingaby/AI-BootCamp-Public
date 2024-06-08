@@ -9,7 +9,7 @@ conda info -e
 ## Initial Setup for a new AI environment
 
 ``` Bash
-conda create --name AI python=3.12
+conda create --name AI python=3.11
 conda activate AI
 conda install pandas
 conda install console_shortcut
